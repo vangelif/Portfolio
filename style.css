@@ -1,14 +1,14 @@
 nav {
-  display:flex;
+  display: flex;
   width: 280px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 2px solid goldenrod;
 }
 nav ul {
   list-style: none;
   display: flex;
   width: 400px;
-  justify-content: space-between; 
+  justify-content: space-between;
   border: 2px solid maroon;
 }
 .box {
