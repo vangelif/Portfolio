@@ -3,7 +3,7 @@
   padding: 0;
   outline: none;
 }
-
+/* Start of header */
 .header {
   left: 0;
   top: 0;
@@ -15,8 +15,6 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
-  /* padding-left: 0.5rem;
-  padding-right: 0.5rem; */
 }
 
 nav {
@@ -24,8 +22,6 @@ nav {
   height: 100%;
   display: flex;
   align-items: center;
-  /* background-color: rgb(215, 10, 10); */
-  /* padding-right: 10rem;  */
   margin-right: 50px;
 }
 
@@ -38,32 +34,41 @@ nav ul {
   align-items: center;
   margin: auto 14px;
 }
+/* End of header */
 /* start of main body */
 .main-body {
   width: 412px;
   background: url(/images/header-illsutration-mobile.png);
+  background-size: calc(100%);
   padding-top: 50px;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
   z-index: -1;
 }
 /* 1 */
 .title h1 {
   font-family: "Inter";
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 45px;
   line-height: 52px;
   color: #172b4d;
   text-align: center;
+  margin: 15px 0px 5px;
 }
 /* 2 */
 .profession h1 {
   color: #36b37e;
   font-family: "Inter";
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
+  margin-bottom: 70px;
+  margin-top: 2.5px;
 }
 /* 3 */
 .description p {
@@ -74,11 +79,13 @@ nav ul {
   line-height: 28px;
   text-align: center;
   color: #172b4d;
+  margin: 0px 15px 100px;
 }
 /* Social media */
 .social-icon-container {
   display: grid;
   place-items: center;
+  margin-bottom: 15px;
   width: 100%;
 }
 .social-icon-container ul {
@@ -88,16 +95,5 @@ nav ul {
   width: 50%;
   align-items: center;
 }
-.social-icon-container .social li{
-  height: 20px;
-  width: 18px;
-  color: #505F79;
-  /* background: red; */
-}
-.social-icon-container .social-img img {
-  height: 10.5px;
-  width: 10px;
-  color: #505F79;
-}
-/* end of social media */
+/* end of Social media */
 /* end of main body */
