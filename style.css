@@ -3,6 +3,7 @@
   padding: 0;
   outline: none;
 }
+
 /* Start of header */
 .header {
   left: 0;
@@ -10,7 +11,7 @@
   right: 0;
   height: 60px;
   width: 100vw;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -34,7 +35,9 @@ nav ul {
   align-items: center;
   margin: auto 14px;
 }
+
 /* End of header */
+
 /* start of main body */
 .main-body {
   width: 412px;
@@ -45,23 +48,25 @@ nav ul {
   background-repeat: no-repeat;
   z-index: -1;
 }
+
 /* 1 */
 .title h1 {
-  font-family: "Inter";
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Inter", sans-serif;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
   line-height: 52px;
   color: #172b4d;
   text-align: center;
-  margin: 15px 0px 5px;
+  margin: 15px 0 5px;
 }
+
 /* 2 */
 .profession h1 {
   color: #36b37e;
-  font-family: "Inter";
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Inter", sans-serif;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -70,17 +75,19 @@ nav ul {
   margin-bottom: 70px;
   margin-top: 2.5px;
 }
+
 /* 3 */
 .description p {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
   color: #172b4d;
-  margin: 0px 15px 100px;
+  margin: 0 15px 100px;
 }
+
 /* Social media */
 .social-icon-container {
   display: grid;
@@ -88,6 +95,7 @@ nav ul {
   margin-bottom: 15px;
   width: 100%;
 }
+
 .social-icon-container ul {
   list-style: none;
   display: flex;
@@ -95,5 +103,7 @@ nav ul {
   width: 50%;
   align-items: center;
 }
+
 /* end of Social media */
+
 /* end of main body */
