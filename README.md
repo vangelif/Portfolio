@@ -1,97 +1,168 @@
-# HTML & CSS3 Course
+# 📗 Table of Contents
 
-If you are not familiar with linters, read [root level README](../README.md).
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## Set-up GitHub Actions
+# 📖 [Hello Microverse] <a name="about-project"></a>
 
-Please do the following **steps in this order**:
+**Portfolio** is a project that we are applying our knowledge on HTML and CSS and showcase our most crisp and pristine projects. 
+## 🛠 Built With <a name="built-with"></a>
 
-1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
-   - **Remember** to use the file linked above
-   - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-3. When you open your first pull request you should see the result of the GitHub actions checks:
+### Tech Stack <a name="tech-stack"></a>
 
-![gh actions checks](../assets/images/gh-actions-html-css-checks.png)
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-Click on the `Details` link of each action to see the full output and the errors that need to be fixed:
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
 
-![gh actions failing checks](../assets/images/gh-actions-html-css-failing-checks.png)
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-## Set-up linters in your local env
+### Key Features <a name="key-features"></a>
 
-**Note**: The `npm` package manager is going to create a `node_modules` directory to install all of your dependencies. You shouldn't commit that directory. To avoid that, you can create a [`.gitignore`](https://git-scm.com/docs/gitignore) file and add `node_modules` to it:
+- **[User will have access to all the projects and used technologies]**
+- **[User will have access to references for further studying]**
+- **[User will be updated with the recent working updates]**
+- **[User will be able to arrange consultations and learning sessions]**
+- **[User will be able to purchase merchandise]**
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+By following below steps a new developer can make instant use of the project.
+
+Get a local copy up and running now:
+
+### Prerequisites
+
+In order to run this project you need:
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
 
 ```
-# .gitignore
-node_modules/
-```
+ -->
 
-### [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+## 👥 Author <a name="authors"></a>
 
-An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more.
+👤 **Vangelis**
 
-You can get the Lighthouse report by any of the following ways:
+- GitHub: [@githubhandle](https://github.com/VangeliVangeli)
+- Twitter: [@twitterhandle](https://twitter.com/vangfot)
 
-- [In Chrome DevTools](https://developers.google.com/web/tools/lighthouse#devtools)
-- [From the command line](https://developers.google.com/web/tools/lighthouse#cli)
-- [As a Node module](https://developers.google.com/web/tools/lighthouse#programmatic)
-- [From a web UI](https://developers.google.com/web/tools/lighthouse#psi)
+## 🔭 Future Features <a name="future-features"></a>
 
-To access the report generated by Lighthouse on your pull request, click the `Details` link for the `Linters/Lighthouse` check and you will see the full output of the action:
+- [Place registration form and merchandise basket] **[Upgrade the hmtl file]**
+- [Total of three projects on discussions] **[Create a description of main and side projects]**
+- [Series of videos and learning refences] **[Create either a carousel or a column of videos and their thumbnails]**
+- [Include pre-Covid working experience] **[Update on latest working experiences]**
 
-![lighthouse report](../assets/images/lighthouse-report.png)
+## 🤝 Contributing <a name="contributing"></a>
 
-### [Webhint](https://webhint.io/)
+Contributions, issues, and feature requests are welcome!
 
-A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors.
+Feel free to come in touch with the author and arrange a meeting and make your contributions truly valuable. 
 
-**NOTE:** If you are running on Windows, you need to initialize npm to create `package.json` file. 
-   ```
-   npm init -y
-   ```
+## ⭐️ Show your support <a name="support"></a>
 
-1. Run
-   ```
-   npm install --save-dev hint@7.x
-   ```
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-2. Copy [.hintrc](.hintrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run
-   ```
-   npx hint .
-   ```
-5. Fix validation errors.
+As this is one of the first projects of the author, please be kind enough and show your support by DMing on twitter or by contributing to this project. All your efforts are highly appreciated and welcomed!
 
-### [Stylelint](https://stylelint.io/)
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
+For this project many hours have been invested. For that reason, I would like to thank all my family that supported me in this long journey.
 
-1. Run
+  ## 📝 License <a name="license"></a>
 
-   ```
-   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-   ```
+This project is [MIT](./LICENSE) licensed.
 
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-
-2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/usage/options) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
-
-## Have you already completed the Sass lessons?
-
-If you completed the Sass lessons you may prefer to work with SCSS files, if that's the case you need to perform
-a few modifications to the linter configuration files.
-
-1. In the file `.github/workflows/linters.yml` [line 48](https://github.com/microverseinc/linters-config/blob/master/html-css/.github/workflows/linters.yml#L48) replace `"**/*.{css,scss}"` with `"**/*.scss"`
-2. Use `npx stylelint "**/*.scss"` to lint you SCSS files and not the generated CSS
-
-Once you've done the previous steps you can focus on your SCSS files and not in fixing the generated CSS output
-every time.
