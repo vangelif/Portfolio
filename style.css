@@ -1,18 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.header {
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 60px;
+  width: 100vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* padding-left: 0.5rem;
+  padding-right: 0.5rem; */
+}
+
 nav {
+  width: 100%;
+  height: 100%;
   display: flex;
-  width: 280px;
-  background-color: #fff;
-  border: 2px solid goldenrod;
+  align-items: center;
+  /* background-color: rgb(215, 10, 10); */
+  /* padding-right: 10rem;  */
+  margin-right: 50px;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  width: 400px;
+  width: 100%;
+  height: 100%;
   justify-content: space-between;
-  border: 2px solid maroon;
+  align-items: center;
+  margin: auto 14px;
 }
-
-.box {
-  border: 2px solid black;
+/* start of main body */
+.main-body {
+  width: 412px;
+  background: url(/images/header-illsutration-mobile.png);
+  padding-top: 50px;
+  z-index: -1;
 }
+/* 1 */
+.title h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  text-align: center;
+}
+/* 2 */
+.profession h1 {
+  color: #36b37e;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+/* 3 */
+.description p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+}
+/* Social media */
+.social-icon-container {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+.social-icon-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+.social-icon-container .social li{
+  height: 20px;
+  width: 18px;
+  color: #505F79;
+  /* background: red; */
+}
+.social-icon-container .social-img img {
+  height: 10.5px;
+  width: 10px;
+  color: #505F79;
+}
+/* end of social media */
+/* end of main body */
