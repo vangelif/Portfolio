@@ -1,7 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  outline: none;
+  width: auto;
+  outline: none;  
+  /* box-sizing: border-box; */  
+  /* border-bottom: 200px; */
 }
 
 /* Start of header */
@@ -45,9 +48,9 @@
   background: url(images/header-illsutration-mobile.png);
   background-size: calc(100%);
   padding-top: 50px;
-  padding-bottom: 200px;
   background-repeat: no-repeat;
   z-index: -1;
+
 }
 
 /* 1 */
@@ -92,9 +95,9 @@
 /* Social media */
 .social-icon-container {
   display: grid;
-  place-items: center;
-  margin-bottom: 15px;
+  place-items: center; 
   width: 100%;
+  padding-bottom: 15px;
 }
 
 .social-icon-container ul {
@@ -103,8 +106,94 @@
   justify-content: space-between;
   width: 50%;
   align-items: center;
-}
 
+}
+.button img{
+  padding-top: 15px;  
+  margin-left: 190px;  
+}
 /* end of Social media */
 
+/* start of section works */
+.works {
+  display: grid;
+  grid-template-rows: repeat(12, auto);  
+  row-gap: 25px;  
+  margin-bottom: 1000px;
+  width: auto;
+  /* border-bottom: 500px;
+  padding-bottom: 500px; */
+  /* height: 500px; */
+}
+.works h1 {
+  margin-left: 50px;
+  margin-top: 5px;
+ 
+  width: 327px;
+  height: 97px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #172B4D;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* top layer class */
+.card-1,.card-2,.card-3,.card-4,
+.card-5,.card-6{
+  background: url(images/Enable.png);
+  background-size: calc(100%);  
+  width: 327px;
+  height: 474px;
+  margin-left: 45px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* mid layer class */
+.card-1,.card-2,.card-3,.card-4,
+.card-5,.card-6 h2{
+  margin-bottom: 3px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 32px;
+  color: #3A4A42;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* width: auto;
+  height: auto; */
+}
+/* mid layer class */
+.card-1,.card-2,.card-3,.card-4,
+.card-5,.card-6 .card-buttons{
+  margin-bottom: 6px;
+  /* width: auto;
+  height: auto; */
+}
+/* mid layer class */
+.card-1,.card-2,.card-3,.card-4,
+.card-5,.card-6 .project-button {
+  margin-bottom: 10px;
+  /* width: auto;
+  height: auto; */
+}
+
+.line {  
+  background-color: #36B37E;
+  margin-top: 10px;
+  margin-left: 190px;
+  width: 48px;
+  height: 4px;
+  border-radius: 24px;
+}
+
+/* end of section works */
 /* end of main body */
