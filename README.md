@@ -4,6 +4,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -53,6 +54,10 @@
 - **[User will be updated with the recent working updates]**
 - **[User will be able to arrange consultations and learning sessions]**
 - **[User will be able to purchase merchandise]**
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link] Live Demo will be available soon. 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
