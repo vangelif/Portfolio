@@ -63,7 +63,7 @@
 
 By following below steps a new developer can make instant use of the project.
 
-Get a local copy up and running now:
+Get a local copy up now by following below steps:
 
 ### Prerequisites
 
@@ -149,7 +149,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [Place registration form and merchandise basket] **[Upgrade the hmtl file]**
-- [Total of three projects on discussions] **[Create a description of main and side projects]**
+- [Total of six projects on discussions] **[Create a description of main and side projects]**
 - [Series of videos and learning refences] **[Create either a carousel or a column of videos and their thumbnails]**
 - [Include pre-Covid working experience] **[Update on latest working experiences]**
 
