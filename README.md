@@ -4,6 +4,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -54,11 +55,15 @@
 - **[User will be able to arrange consultations and learning sessions]**
 - **[User will be able to purchase merchandise]**
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link] Live Demo will be available soon. 
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 By following below steps a new developer can make instant use of the project.
 
-Get a local copy up and running now:
+Get a local copy up now by following below steps:
 
 ### Prerequisites
 
@@ -144,7 +149,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [Place registration form and merchandise basket] **[Upgrade the hmtl file]**
-- [Total of three projects on discussions] **[Create a description of main and side projects]**
+- [Total of six projects on discussions] **[Create a description of main and side projects]**
 - [Series of videos and learning refences] **[Create either a carousel or a column of videos and their thumbnails]**
 - [Include pre-Covid working experience] **[Update on latest working experiences]**
 

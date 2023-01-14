@@ -4,76 +4,453 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b42bc5ce06.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Vangelis Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
   </head>
-
   <body>
-    <!-- Navigation Bar w/ Welcome message and Hamburger -->
-    <header class="container">
-      <a class="header-text" href="#">Welcome</a>
-      <nav>
-        <a class="header-switch" href="#">
-          <img src="images/Union.png" alt="navigation-switch" />
-        </a>
+    <!-- Header -->
+    <header>
+      <nav id="nav">
+        <div class="nav-child">
+          <a href="index.html">
+            <div id="logo">
+              <h3 style="font-size: 20px">Welcome</h3>
+            </div>
+          </a>
+          <div id="bars">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
       </nav>
     </header>
-    <!-- End of Navigation Bar -->
-
-    <!-- Main body w/ hello I am Vangelis and some more text -->
-    <section class="main-body">
-      <!-- <img src="/images/header-illsutration-mobile.png" /> -->
-      <!-- 1 -->
-      <div class="title">
-        <h1>Hey there. I'm<br />Vangelis<br /></h1>
+    <!-- End header -->
+    <!-- Headline -->
+    <section class="about">
+      <div class="title-wrapper">
+        <h2>Hey there. I’m Vangelis</h2>
+        <h2 style="color: green">I’m a software developer</h2>
       </div>
-      <!-- 2 -->
-      <div class="profession">
-        <h1>I'm a software developer</h1>
-      </div>
-      <!-- 3 -->
-      <div class="description">
+      <div class="support-text">
         <p>
-          I can help you build a product,<br />
-          feature or website. Look through<br />
-          some of my work and experience!<br />
-          If you like what you see and have<br />
-          a project you need coded, <br />
-          don't hesitate to contact me.
+          I can help you build a product, feature or website. Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
         </p>
       </div>
-      <!-- 4 Start of with social media -->
-      <div class="social-icon-container">
-        <ul>
-          <li class="social">
-            <a href="#"><img src="images/twitter.svg" alt="twitter-icon" /></a>
-          </li>
-          <li class="social">
-            <a href="#"
-              ><img src="images/linkedin.svg" alt="linkedin-icon"
-            /></a>
-          </li>
-          <li class="social">
-            <a href="#"><img src="images/medium.svg" alt="medium-icon" /></a>
-          </li>
-          <li class="social">
-            <a href="#"><img src="images/github.svg" alt="github-icon" /></a>
-          </li>
-          <li class="social">
-            <a href="#"
-              ><img src="images/angellist.svg" alt="angellist-icon"
-            /></a>
-          </li>
-        </ul>
+      <!-- Social links -->
+      <ul class="social-media-icons">
+        <li class="social-icon">
+          <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="social-icon">
+          <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </li>
+        <li class="social-icon">
+          <a href="" target="_blank"> <i class="fab fa-medium-m"></i></a>
+        </li>
+        <li class="social-icon">
+          <a href="" target="_blank"><i class="fab fa-github"></i></a>
+        </li>
+        <li class="social-icon">
+          <a href="" target="_blank"><i class="fab fa-angellist"></i></a>
+        </li>
+      </ul>
+      <!-- Button -->
+      <div class="header-button">
+        <i class="fas fa-chevron-down"></i>
       </div>
-      <!-- End of social media -->
+      <!-- End button -->
     </section>
-    <!-- End of Main body -->
+    <!-- End Headline -->
+    <!-- Works -->
+    <section class="section">
+      <div class="works-title-wrapper">
+        <h2>
+          My Recent <br />
+          Works
+        </h2>
+        <div class="underline"></div>
+      </div>
+      <!-- Projects -->
+      <div class="cards-container">
+        <!-- project -->
+        <div class="project">
+          <div class="image-wrapper"></div>
+          <div class="project-footer">
+            <div class="project-title-wrapper">
+              <h4>Multi-Post Stories<br />Gain+Glory</h4>
+            </div>
+            <ul class="project-buttons-wrapper">
+              <li>
+                <a href="#"
+                  ><button class="btn-hover btn-active btn-pressed">
+                    Ruby on rails
+                  </button></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><button class="btn-hover btn-active btn-pressed">
+                    CSS
+                  </button></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><button class="btn-hover btn-active btn-pressed">
+                    javascript
+                  </button></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><button class="btn-hover btn-active btn-pressed">
+                    HTML
+                  </button></a
+                >
+              </li>
+            </ul>
+            <button class="section-button btn-hover btn-active btn-pressed">
+              See Project
+            </button>
+          </div>
+        </div>
+        <!-- project -->
+        <div class="project">
+          <div class="image-wrapper"></div>
+          <div class="project-footer">
+            <div class="project-title-wrapper">
+              <h4>Multi-Post Stories<br />Gain+Glory</h4>
+            </div>
+            <ul class="project-buttons-wrapper">
+              <li>
+                <button class="btn-hover btn-active btn-pressed">
+                  Ruby on rails
+                </button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">CSS</button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">
+                  javascript
+                </button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">HTML</button>
+              </li>
+            </ul>
+            <button class="section-button btn-hover btn-active btn-pressed">
+              See Project
+            </button>
+          </div>
+        </div>
+        <!-- project -->
+        <div class="project">
+          <div class="image-wrapper"></div>
+          <div class="project-footer">
+            <div class="project-title-wrapper">
+              <h4>Multi-Post Stories<br />Gain+Glory</h4>
+            </div>
+            <ul class="project-buttons-wrapper">
+              <li>
+                <button class="btn-hover btn-active btn-pressed">
+                  Ruby on rails
+                </button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">CSS</button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">
+                  JavaScript
+                </button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">HTML</button>
+              </li>
+            </ul>
+            <button class="section-button btn-hover btn-active btn-pressed">
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="project">
+          <div class="image-wrapper"></div>
+          <div class="project-footer">
+            <div class="project-title-wrapper">
+              <h4>Multi-Post Stories<br />Gain+Glory</h4>
+            </div>
+            <ul class="project-buttons-wrapper">
+              <li>
+                <button class="btn-hover btn-active btn-pressed">
+                  Ruby on rails
+                </button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">CSS</button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">
+                  javascript
+                </button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">HTML</button>
+              </li>
+            </ul>
+            <button class="section-button btn-hover btn-active btn-pressed">
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="project">
+          <div class="image-wrapper"></div>
+          <div class="project-footer">
+            <div class="project-title-wrapper">
+              <h4>Multi-Post Stories<br />Gain+Glory</h4>
+            </div>
+            <ul class="project-buttons-wrapper">
+              <li>
+                <button class="btn-hover btn-active btn-pressed">
+                  Ruby on rails
+                </button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">CSS</button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">
+                  javascript
+                </button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">HTML</button>
+              </li>
+            </ul>
+            <button class="section-button btn-hover btn-active btn-pressed">
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="project">
+          <div class="image-wrapper"></div>
+          <div class="project-footer">
+            <div class="project-title-wrapper">
+              <h4>Multi-Post Stories<br />Gain+Glory</h4>
+            </div>
+            <ul class="project-buttons-wrapper">
+              <li>
+                <button class="btn-hover btn-active btn-pressed">
+                  Ruby on rails
+                </button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">CSS</button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">
+                  javascript
+                </button>
+              </li>
+              <li>
+                <button class="btn-hover btn-active btn-pressed">HTML</button>
+              </li>
+            </ul>
+            <button class="section-button btn-hover btn-active btn-pressed">
+              See Project
+            </button>
+          </div>
+        </div>
+        <!--project -->
+      </div>
+    </section>
+    <!-- About me section -->
+    <section class="section">
+      <div class="about-wrapper">
+        <h2>About me</h2>
+        <p
+          style="
+            margin-top: 24px;
+            margin-bottom: 24px;
+            line-height: 32px;
+            text-align: center;
+          "
+        >
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+        <button class="section-button btn-hover btn-active btn-pressed">
+          Get my Resume
+        </button>
+      </div>
+    </section>
+    <!--Cards -->
+    <section class="section">
+      <!-- Card -->
+      <div class="cards-container">
+        <div class="card">
+          <div class="icon-wrapper">
+            <div>
+              <img
+                class="icon"
+                style="width: 100%; height: 100%; max-width: 100%"
+                src="images/icon-languages.png"
+                alt="icon"
+              />
+            </div>
+          </div>
+          <div class="card-title-wrap">
+            <h4>Languages</h4>
+          </div>
+          <ul class="card-buttons-wrap">
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  ruby on rails
+                </button></a
+              >
+            </li>
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  css
+                </button></a
+              >
+            </li>
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  javascript
+                </button></a
+              >
+            </li>
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  html
+                </button></a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Card -->
+        <div class="card">
+          <div class="icon-wrapper">
+            <div>
+              <img
+                class="icon"
+                style="width: 100%; height: 100%; max-width: 100%"
+                src="images/icon-frameworks.png"
+                alt="icon"
+              />
+            </div>
+          </div>
+          <div class="card-title-wrap">
+            <h4>Frameworks</h4>
+          </div>
+          <ul class="card-buttons-wrap">
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  Bootstrap
+                </button></a
+              >
+            </li>
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  Ruby on rails
+                </button></a
+              >
+            </li>
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  RSpec
+                </button></a
+              >
+            </li>
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  Selenium
+                </button></a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Card -->
+        <div class="card">
+          <div class="icon-wrapper">
+            <div>
+              <img
+                class="icon"
+                style="width: 100%; height: 100%; max-width: 100%"
+                src="images/icon-skills.png"
+                alt="icon"
+              />
+            </div>
+          </div>
+          <div class="card-title-wrap">
+            <h4>Skills</h4>
+          </div>
+          <ul class="card-buttons-wrap">
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  Codekit
+                </button></a
+              >
+            </li>
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  Github
+                </button></a
+              >
+            </li>
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  Codepen
+                </button></a
+              >
+            </li>
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  Gitlab
+                </button></a
+              >
+            </li>
+            <li>
+              <a
+                ><button class="btn-hover btn-active btn-pressed">
+                  Terminal
+                </button></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="contact-msg">
+          <h2>
+            I 'm always<br />
+            interested in<br />
+            hearing about<br />
+            new projects, so<br />
+            if you'd like to<br />
+            chat, please get<br />
+            in touch.
+          </h2>
+        </div>
+      </div>
+    </section>
+    <!-- end cards -->
   </body>
 </html>
