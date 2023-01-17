@@ -5,6 +5,12 @@
   outline: none;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
 a {
   text-decoration: none;
 }
@@ -64,41 +70,34 @@ nav .time {
   padding-left: 24px;
   padding-right: 24px;
   margin: 0 auto;
-  margin-top: 156px;
-  background: url(images/header-img.png);
+  margin-top: 55px;
+  background: url(images/header-illsutration-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.title-wrapper {
+.title-back {
   height: 192px;
 }
 
-.title-wrapper h2,
-.works-title-wrapper h2 {
+.title-back h2,
+.works-title-back h2 {
   color: #172b4d;
   font-size: 40px;
   font-weight: 700;
   text-align: center;
 }
 
-.about .support-text {
-  height: 164px;
-}
-
-.about p {
-  font-size: 20px;
-  color: #172b4d;
-}
-
 .social-media-icons {
   margin: 0 auto;
-  margin-bottom: 64px !important;
+  margin-bottom: 135px;
+  margin-top: 60px;
+  padding: 20px 25px;
   height: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 170.17px;
+  width: 190.17px;
 }
 
 .about .social-icon {
@@ -127,6 +126,7 @@ nav .time {
 /* Works */
 .section {
   width: 100%;
+  height: 100%;
   padding-left: 24px;
   padding-right: 24px;
   margin: 0 auto;
@@ -155,7 +155,7 @@ nav .time {
   text-align: center;
 }
 
-.works-title-wrapper {
+.works-title-back {
   width: 100%;
 }
 
@@ -173,7 +173,7 @@ nav .time {
   border-radius: 8px;
 }
 
-.image-wrapper {
+.image-back {
   height: 268px;
   width: 100%;
   background: #d0d9d4;
@@ -187,13 +187,13 @@ nav .time {
   border-radius: 8px;
 }
 
-.project-title-wrapper h4 {
+.project-title-back h4 {
   font-size: 24px;
   color: #3a4a42;
   text-align: center;
 }
 
-.project-buttons-wrapper {
+.project-buttons-back {
   margin-top: 16px;
   margin-bottom: 16px;
   display: flex;
@@ -204,18 +204,14 @@ nav .time {
 
 .btn-hover:hover {
   color: beige;
-  background: violet;
-}
-
-.btn-active:active {
-  background: saddlebrown;
+  background: #c5e9da;
 }
 
 .btn-pressed:focus {
   background: #36b37f;
 }
 
-.project-buttons-wrapper button {
+.project-buttons-back button {
   background: #ebf0ee;
   border-radius: 4px;
   padding: 8px 12px;
@@ -266,54 +262,87 @@ nav .time {
   text-align: center;
 }
 
-.card .icon-wrapper {
+.card .icon-back {
   display: grid;
   place-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  height: 128px;
-  margin-top: 1rem;
-  margin-bottom: 40px;
+  height: 100%;
 }
 
-.card .icon {
-  height: 80px;
-  width: 80px;
+.card .card-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
 }
 
 .card-title-wrap {
-  height: 2rem;
   margin: 0 auto;
+  padding: 1px;
+  margin-top: 20px;
 }
 
 .card-buttons-wrap {
-  margin-top: 16px;
-  margin-bottom: 16px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: 136px;
+  width: 100%;
+  height: 110px;
+  margin-top: 15px;
 }
 
-.section .contact-text p {
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  color: #172b4d;
+.contact-form {
+  display: flex;
+  gap: 120px;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 915px;
 }
 
-.section .contact-msg {
+.form-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.form-container {
+  width: 327px;
+  height: 330px;
+}
+
+.input-form {
+  width: 100%;
+  height: 48px;
+  position: relative;
+}
+
+.input-form::placeholder {
+  width: 295px;
+  position: absolute;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 18px / 2);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+}
+
+.contact-msg {
   width: 380px;
   height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 110px;
-  margin-bottom: 150px;
+  margin-top: 130px;
+  margin-bottom: 50px;
 }
 
-.section .contact-msg h2 {
+.contact-msg h2 {
   color: #172b4d;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -321,4 +350,76 @@ nav .time {
   font-size: 40px;
   line-height: 46px;
   text-align: center;
+}
+
+.text-area {
+  width: 100%;
+  height: 114px;
+  border-radius: 4px;
+  border: 1px solid #36b37f;
+  box-shadow: 0 4px 4px 0 #00000040;
+}
+
+.submit-btn {
+  width: 129px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  border: none;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.submit-btn:hover {
+  color: beige;
+  background: #c5e9da;
+}
+
+.submit-btn:enabled {
+  color: beige;
+  background: #36b37f;
+}
+
+.submit-btn:active {
+  color: beige;
+  background: #008552;
+}
+
+.social-media-container ul {
+  height: 20px;
+  width: 170px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-media-container {
+  position: absolute;
+  top: 83%;
+}
+
+.social-media-icons .social-icon i {
+  color: #505f79;
+}
+
+footer {
+  position: absolute;
+  bottom: 10%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
 }
