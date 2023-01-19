@@ -601,6 +601,14 @@ display: none;
   .icon:hover {
     transform: scale(1.2);
   }
+
+  .input-form {
+    transition: all 0.4s linear;
+  }
+
+  .input-form:hover {
+    transform: translate(24px);
+  }
 }
 
 
