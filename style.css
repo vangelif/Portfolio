@@ -594,7 +594,13 @@ display: none;
     transform: scale(1.5);
   }
 
+  .icon {
+    transition: all 0.4s ease-in-out;
+  }
 
+  .icon:hover {
+    transform: scale(1.2);
+  }
 }
 
 
