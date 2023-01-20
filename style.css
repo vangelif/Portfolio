@@ -21,7 +21,8 @@ li {
 }
 
 /* Header and nav */
-#nav {
+
+nav {
   display: flex;
   align-items: center;
   width: 100%;
@@ -46,11 +47,30 @@ li {
 #nav ul {
   display: none;
 }
+#logo {
+  height: 100%;
+  width: 114px;
+  display: flex;
+  align-items: center;
+}
+
+nav .time {
+  display: flex;
+  align-items: center;
+}
+
+#bars {
+  height: 40px;
+  width: 40px;
+  display: grid;
+  place-items: center;
+}
 
 /* Headline */
 .intro {
   display: flex;
   flex-direction: column;
+
   gap: 58px;
   align-items: center;
   width: 100%;
@@ -101,6 +121,18 @@ li {
   height: 20px;
   margin: 0 auto;
   padding: 0;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0 auto;
+  margin-top: 55px;
+  background: url(images/header-illsutration-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-back {
+  height: 192px;
 }
 
 .title-back h2,
@@ -117,9 +149,12 @@ li {
   padding: 1% 10%;
 }
 
-.social-bottom-icons {
+.social-media-icons {
   margin: 0 auto;
-  padding: 1% 10%;
+  margin-bottom: 135px;
+  margin-top: 60px;
+  padding: 20px 25px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -127,6 +162,11 @@ li {
 
 .intro .social-icon {
   width: 200px;
+  width: 190.17px;
+}
+
+.about .social-icon {
+  width: 20px;
   height: 20px;
   display: grid;
   place-items: center;
@@ -138,7 +178,11 @@ li {
   height: 100%;
 }
 
+
 .recent-works .header-button {
+
+.about .header-button {
+
   height: 40px;
   width: 40px;
   border-radius: 32px;
@@ -155,8 +199,13 @@ li {
   padding-left: 24px;
   padding-right: 24px;
   margin: 0 auto;
+
   margin-bottom: 25px;
   margin-top: 25px;
+
+  margin-top: 156px;
+  margin-top: 24px;
+
 }
 
 .about-back {
@@ -197,8 +246,12 @@ li {
   width: 100%;
 }
 
+
 .more-languages .cards-container,
 .cards-portfolio {
+
+.section .cards-container {
+
   margin-top: 32px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(327px, 1fr));
@@ -331,7 +384,7 @@ li {
 
 .contact-form {
   display: flex;
-  gap: 110px;
+  gap: 120px;
   flex-direction: column;
   align-items: center;
   position: relative;
@@ -346,7 +399,7 @@ li {
 }
 
 .form-container {
-  min-width: 327px;
+  width: 327px;
   height: 330px;
 }
 
@@ -435,15 +488,18 @@ li {
   background: #008552;
 }
 
+
 .social-bottom-container .social-bottom-icons {
+
+.social-media-container ul {
+
   height: 20px;
   width: 170px;
   margin: 0 auto;
   padding: 0;
 }
 
-.social-top-container,
-.social-bottom-container {
+.social-media-container {
   position: absolute;
   bottom: 3.9%;
   left: 50%;
@@ -467,7 +523,11 @@ li {
   bottom: 4%;
 }
 
+
 .social-bottom-container .social-icon i {
+
+.social-media-icons .social-icon i {
+
   color: #505f79;
 }
 
@@ -484,6 +544,7 @@ footer {
   left: 50%;
   transform: translateX(-50%);
 }
+
 
 @media screen and (min-width: 840px) {
   .nav-child {
@@ -662,3 +723,4 @@ footer {
     transform: scale(1.5);
   }
 }
+
