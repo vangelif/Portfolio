@@ -498,7 +498,7 @@ footer {
     height: 72px;
   }
 
-  #nav ul {
+  #nav ul {  
     display: flex;
     align-items: center;
     gap: 10px;
