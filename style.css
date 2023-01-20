@@ -561,7 +561,7 @@ footer {
     margin: 0 auto;
   }
 
-  .cards-portfolio {
+  .cards-portfolio { 
     display: grid;
     gap: 1.1rem;
     grid-template-columns: repeat(3, 1fr);
