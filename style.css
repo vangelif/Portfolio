@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-
 }
 
 body {
@@ -11,7 +10,6 @@ body {
   flex-direction: column;
   padding-bottom: 100px;
   position: relative;
-
 }
 
 a {
@@ -45,7 +43,7 @@ li {
   height: 48px;
 }
 
-#nav ul{
+#nav ul {
   display: none;
 }
 
@@ -56,38 +54,40 @@ li {
   gap: 58px;
   align-items: center;
   width: 100%;
-  padding: 80px 15px; 
+  padding: 80px 15px;
   margin: 0 auto;
 }
 
 .sm-top {
-  position:absolute;
-  top:0;
-  left:0;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 410px;
-  height: 620px;   
-  
+  height: 620px;
 }
 
-.title-back h2, .support-text p{
+.title-back h2,
+.support-text p {
   text-align: center;
 }
 
-.title-back, .support-text, .social-media {
-  position:relative;     
+.title-back,
+.support-text,
+.social-media {
+  position: relative;
 }
 
-.bg-top{
-  display:none;
+.bg-top {
+  display: none;
 }
 
-.support-text{
+.support-text {
   width: 100%;
   font-size: 20px;
   color: #172b4d;
   text-align: center;
 }
-.social-media{
+.social-media {
   width: 170.17px;
 }
 .social-media ul {
@@ -106,7 +106,6 @@ li {
   text-align: center;
 }
 
-
 .social-top-icons {
   margin: 0 auto;
   height: 20%;
@@ -118,7 +117,7 @@ li {
   padding: 1% 10%;
   display: flex;
   align-items: center;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .intro .social-icon {
@@ -153,8 +152,7 @@ li {
   margin: 0 auto;
   margin-bottom: 25px;
   margin-top: 25px;
- }
-
+}
 
 .about-back {
   background-image: url(images/about-me.svg);
@@ -164,11 +162,10 @@ li {
   /* background-attachment: fixed; */
 }
 
-.about-back p{
+.about-back p {
   width: 75%;
   margin: 0 auto;
 }
-
 
 .recent-works .underline {
   width: 48px;
@@ -178,7 +175,8 @@ li {
   margin-top: 24px;
 }
 
-.recent-works, .about-me h2 {
+.recent-works,
+.about-me h2 {
   font-size: 40px;
   font-weight: 700;
   color: #172b4d;
@@ -195,8 +193,6 @@ li {
   width: 100%;
 }
 
-
-
 .more-languages .cards-container,
 .cards-portfolio {
   margin-top: 32px;
@@ -204,7 +200,6 @@ li {
   grid-template-columns: repeat(auto-fit, minmax(327px, 1fr));
   grid-column-gap: 1.5rem;
   grid-row-gap: 1.5rem;
-  
 }
 
 /* Card */
@@ -282,7 +277,6 @@ li {
   background: #ebf0ee;
   align-items: center;
   height: 352px;
-
 }
 
 .card button {
@@ -336,8 +330,8 @@ li {
   gap: 110px;
   flex-direction: column;
   align-items: center;
-  position:relative;
-  height: 915px; 
+  position: relative;
+  height: 915px;
 }
 
 .form-item {
@@ -465,9 +459,9 @@ li {
   display: block;
   width: 83.7px;
   height: 131px;
-  position:absolute;
-  right:1%;
-  bottom:4%;
+  position: absolute;
+  right: 1%;
+  bottom: 4%;
 }
 
 footer {
@@ -482,85 +476,83 @@ footer {
   color: #42526e;
   left: 50%;
   transform: translateX(-50%);
-  
 }
 
-@media screen and (min-width: 840px){
-
+@media screen and (min-width: 840px) {
   .nav-child {
-    display:none;
+    display: none;
   }
-  #nav{
-    display:flex;
+  #nav {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 72px;
-
-
   }
   #nav ul {
     display: flex;
-    align-items: center;   
-    gap: 10px; 
-  }  
+    align-items: center;
+    gap: 10px;
+  }
   #nav ul li a {
     font-size: 1.3rem;
     font-family: Inter;
   }
   .sm-top {
-    display:none;
+    display: none;
   }
-    .intro {
-      margin: 0 auto;
-      padding: 150px 10px;
-      display:flex;
-      justify-content: center;
-      align-items: center;
-    } 
-  
-    .bg-top {
-      display: block;
-      position:absolute;
-      top:0;
-      left:0;
-      width:1350px;
-      height:700px;      
-    }
+  .intro {
+    margin: 0 auto;
+    padding: 150px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .title-back h2, .support-text p{
-      text-align: center;
-    }
+  .bg-top {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1350px;
+    height: 700px;
+  }
 
-    .title-back, .support-text, .social-media {
-      position:relative;     
-    }
+  .title-back h2,
+  .support-text p {
+    text-align: center;
+  }
 
+  .title-back,
+  .support-text,
+  .social-media {
+    position: relative;
+  }
 
-    .title-back h2 {
-      margin: 0 auto;
-      padding: 0;
-      width: 100%;
-      height: 33%;      
-      text-align: center;      
-    }
+  .title-back h2 {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 33%;
+    text-align: center;
+  }
 
-    .support-text p {
-      margin: 0 auto;
-      padding: 0 20%;
-      height: 33%;
-      width: 100%;         
-    }
+  .support-text p {
+    margin: 0 auto;
+    padding: 0 20%;
+    height: 33%;
+    width: 100%;
+  }
 
-    .about-back p{
-      max-width: 920px;
-      margin: 0 auto;
-    }
+  .about-back p {
+    max-width: 920px;
+    margin: 0 auto;
+  }
 
   .cards-portfolio {
     display: grid;
     gap: 1.1rem;
-    grid-template-columns: repeat(3, 1fr);    
+    grid-template-columns: repeat(3, 1fr);
   }
   .project {
     height: 474px;
@@ -568,51 +560,49 @@ footer {
     border-radius: 8px;
   }
   .project-footer {
-    height: 222px;    
+    height: 222px;
     border-radius: 8px;
   }
   .image-back {
     height: 252px;
     border-radius: inherit;
   }
- 
-.more-languages {
-  margin: 0% 1%;
-  padding: 1% 1%;
-}
+
+  .more-languages {
+    margin: 0% 1%;
+    padding: 1% 1%;
+  }
 
   .contact-form {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap:24px;    
-    width: 100%;   
+    gap: 24px;
+    width: 100%;
     height: 600px;
   }
 
-    .frame2x {
-    display:block;
-    position: absolute; 
+  .frame2x {
+    display: block;
+    position: absolute;
     bottom: 3.8%;
     right: 0;
   }
 
-   .small-frame {
-    display:block;
+  .small-frame {
+    display: block;
     position: absolute;
     bottom: 3.8%;
     left: 274px;
   }
 
-   .frame-one {
-    display:block;
+  .frame-one {
+    display: block;
     position: absolute;
     bottom: 3.8%;
     left: 0;
   }
-
-
 
   .contact-msg {
     width: 643px;
@@ -621,37 +611,31 @@ footer {
     margin: 0;
   }
   .contact-msg h2 {
-   
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 52px;
-    color: #172B4D;
+    color: #172b4d;
   }
   .form-container {
     width: 684px;
-
   }
-
 
   .social-bottom-container {
     position: absolute;
     bottom: 1%;
     border-top: 1px solid #ccc;
     width: 100%;
-    
+
     height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-
-
-
   footer {
-display: none;
+    display: none;
   }
 
   .header-button {
@@ -661,8 +645,4 @@ display: none;
   .header-button:hover {
     transform: scale(1.5);
   }
-
-
 }
-
-
