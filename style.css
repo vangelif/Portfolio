@@ -9,7 +9,6 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
-
 }
 
 a {
@@ -21,7 +20,8 @@ li {
 }
 
 /* Header and nav */
-#nav {
+
+nav {
   display: flex;
   align-items: center;
   width: 100%;
@@ -43,41 +43,41 @@ li {
   height: 48px;
 }
 
-#nav ul{
-  display: none;
+#logo {
+  height: 100%;
+  width: 114px;
+  display: flex;
+  align-items: center;
+}
+
+nav .time {
+  display: flex;
+  align-items: center;
+}
+
+#bars {
+  height: 40px;
+  width: 40px;
+  display: grid;
+  place-items: center;
 }
 
 /* Headline */
 .about {
   display: flex;
   flex-direction: column;
-  gap: 58px;
-  align-items: center;
-  width: 87.2%;
-  padding: 124px 24px; 
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
   margin: 0 auto;
-  background: url(images/Template\ 3-main.svg);
+  margin-top: 55px;
+  background: url(images/header-illsutration-mobile.png);
   background-repeat: no-repeat;
-  background-size: 100%;  
+  background-size: cover;
 }
+
 .title-back {
-  width: 100%;
-}
-.support-text{
-  width: 100%;
-  font-size: 20px;
-  color: #172b4d;
-  text-align: center;
-}
-.social-media{
-  width: 170.17px;
-}
-.social-media ul {
-  display: flex;
-  flex-direction: row;
-  gap: 2px;
-  width: 100%;
-  align-items: center;
+  height: 192px;
 }
 
 .title-back h2,
@@ -86,28 +86,22 @@ li {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
-  /* margin: 0 300px;
-  padding: 0 200px;  */
-  max-height: fit-content;
 }
 
-
-.social-top-icons {
+.social-media-icons {
   margin: 0 auto;
-  height: 20%;
-  padding: 1% 10%;
-}
-
-.social-bottom-icons {
-  margin: 0 auto;
-  padding: 1% 10%;
+  margin-bottom: 135px;
+  margin-top: 60px;
+  padding: 20px 25px;
+  height: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;  
+  justify-content: space-between;
+  width: 190.17px;
 }
 
 .about .social-icon {
-  width: 200px;
+  width: 20px;
   height: 20px;
   display: grid;
   place-items: center;
@@ -119,7 +113,7 @@ li {
   height: 100%;
 }
 
-.section .header-button {
+.about .header-button {
   height: 40px;
   width: 40px;
   border-radius: 32px;
@@ -136,10 +130,8 @@ li {
   padding-left: 24px;
   padding-right: 24px;
   margin: 0 auto;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  
-  
+  margin-top: 156px;
+  margin-top: 24px;
 }
 
 .section .underline {
@@ -167,16 +159,12 @@ li {
   width: 100%;
 }
 
-
-
-.section .cards-container,
-.cards-portfolio {
+.section .cards-container {
   margin-top: 32px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(327px, 1fr));
   grid-column-gap: 1.5rem;
   grid-row-gap: 1.5rem;
-  
 }
 
 /* Card */
@@ -304,11 +292,11 @@ li {
 
 .contact-form {
   display: flex;
-  gap: 110px;
+  gap: 120px;
   flex-direction: column;
   align-items: center;
-  
-  height: 915px; 
+  position: relative;
+  height: 915px;
 }
 
 .form-item {
@@ -319,7 +307,7 @@ li {
 }
 
 .form-container {
-  min-width: 327px;
+  width: 327px;
   height: 330px;
 }
 
@@ -408,21 +396,19 @@ li {
   background: #008552;
 }
 
-.social-top-container,
-.social-bottom-container ul {
+.social-media-container ul {
   height: 20px;
   width: 170px;
   margin: 0 auto;
   padding: 0;
 }
 
-.social-top-container,
-.social-bottom-container {
+.social-media-container {
   position: absolute;
   top: 83%;
 }
 
-.social-icon i {
+.social-media-icons .social-icon i {
   color: #505f79;
 }
 
@@ -437,178 +423,3 @@ footer {
   text-align: center;
   color: #42526e;
 }
-
-@media screen and (min-width: 960px){
-
-
-  body{
-    background: url(images/Template\ 3-main.svg);    
-    background-size: cover;       
-    width: 100%;
-    /* left: -50%; */
-    background-size: 100% 150%;
-    background-repeat: no-repeat;  
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .nav-child {
-    display:none;
-  }
-  #nav{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 72px;
-  }
-  #nav ul {
-    display: flex;
-    align-items: center;   
-    gap: 10px; 
-  }  
-  #nav ul li a {
-    font-size: 1.3rem;
-    font-family: Inter;
-  }
-
-    .about {
-      margin: 0.5% 1%;
-      padding: 0.5% 1%;
-      
-    }
-    .title-back h2 {
-      margin: 0 auto;
-      padding: 0;
-      width: 100%;
-      height: 33%;      
-      text-align: center;
-    }
-
-    .support-text p {
-      margin: 0 auto;
-      padding: 0;
-      height: 33%;
-      width: 100%;
-      font-size: 50px;      
-    }
-    .social-top-container
-    .social-bottom-container {
-      height: 25%;
-      margin: 0 5%;
-      padding: 1%;
-      width: 100%;
-    }
-
-    .social-top-icons {
-      width: 100%;
-      margin: 95% auto;
-      padding: 0 10%;
-
-      
-    }
-
-    /* .social-media-icons {
-      margin: 5% 5%;
-      padding: 5%;
-    } */
-
-    .about-back {
-      margin: 1% 15%;
-      padding: 7%;
-      /* align-items: center; */
-    }
-
-
-
-  .cards-portfolio {
-    display: grid;
-    gap:1.2rem;
-    grid-template-columns: repeat(3, 1fr);    
-  }
-  .project {
-    height: 474px;
-    border: 1px solid #d0d9d4;
-    border-radius: 2%;
-  }
-  .project-footer {
-    height: 222px;
-    border-top-right-radius: 20%;
-    border-top-left-radius: 20%;
-  }
-  .image-back {
-    height: 252px;
-    border-radius: 2%;
-  }
-  .title-back h2 {
-    font-size: 80px;
-  }
-  .support-text p {
-    font-size: 30px;    
-  }
-
-
-  .contact-form {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap:24px;    
-    width: 100%;
-   /* margin: 0 auto; */
-  }
-  .contact-msg {
-    width: 643px;
-    display: flex;
-    align-items: center;
-    margin: 0;
-  }
-  .contact-msg h2 {
-   
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 52px;
-    color: #172B4D;
-  }
-  .form-container {
-    width: 684px;
-
-  }
-
- 
-
-
-
-  footer {
-display: none;
-  }
-
-  .header-button {
-    transition: all 0.2s ease-out;
-  }
-
-  .header-button:hover {
-    transform: scale(1.5);
-  }
-
-  .icon {
-    transition: all 0.4s ease-in-out;
-  }
-
-  .icon:hover {
-    transform: scale(1.2);
-  }
-
-  .input-form {
-    transition: all 0.4s linear;
-  }
-
-  .input-form:hover {
-    transform: translate(24px);
-  }
-}
-
-
