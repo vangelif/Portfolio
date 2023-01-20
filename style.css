@@ -87,15 +87,20 @@ li {
   color: #172b4d;
   text-align: center;
 }
+
 .social-media {
   width: 170.17px;
 }
-.social-media ul {
+
+.social-media .social-top {
   display: flex;
   flex-direction: row;
   gap: 2px;
   width: 100%;
   align-items: center;
+  height: 20px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .title-back h2,
@@ -159,7 +164,6 @@ li {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
 }
 
 .about-back p {
@@ -431,8 +435,7 @@ li {
   background: #008552;
 }
 
-.social-top-container,
-.social-bottom-container ul {
+.social-bottom-container .social-bottom-icons {
   height: 20px;
   width: 170px;
   margin: 0 auto;
@@ -447,7 +450,7 @@ li {
   transform: translateX(-50%);
 }
 
-.social-icon i {
+.about .social-icon i {
   color: #505f79;
 }
 
@@ -462,6 +465,10 @@ li {
   position: absolute;
   right: 1%;
   bottom: 4%;
+}
+
+.social-bottom-container .social-icon i {
+  color: #505f79;
 }
 
 footer {
@@ -482,6 +489,7 @@ footer {
   .nav-child {
     display: none;
   }
+
   #nav {
     display: flex;
     justify-content: center;
@@ -489,18 +497,22 @@ footer {
     width: 100%;
     height: 72px;
   }
+
   #nav ul {
     display: flex;
     align-items: center;
     gap: 10px;
   }
+
   #nav ul li a {
     font-size: 1.3rem;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
   }
+
   .sm-top {
     display: none;
   }
+
   .intro {
     margin: 0 auto;
     padding: 150px 10px;
@@ -554,15 +566,18 @@ footer {
     gap: 1.1rem;
     grid-template-columns: repeat(3, 1fr);
   }
+
   .project {
     height: 474px;
     border: 1px solid #d0d9d4;
     border-radius: 8px;
   }
+
   .project-footer {
     height: 222px;
     border-radius: 8px;
   }
+
   .image-back {
     height: 252px;
     border-radius: inherit;
@@ -610,14 +625,16 @@ footer {
     align-items: center;
     margin: 0;
   }
+
   .contact-msg h2 {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 52px;
     color: #172b4d;
   }
+
   .form-container {
     width: 684px;
   }
@@ -627,7 +644,6 @@ footer {
     bottom: 1%;
     border-top: 1px solid #ccc;
     width: 100%;
-
     height: 72px;
     display: flex;
     justify-content: center;
