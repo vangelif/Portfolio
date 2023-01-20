@@ -44,9 +44,17 @@ nav {
   height: 48px;
 }
 
+.social-media-container ul {
+  height: 20px;
+  width: 170px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 #nav ul {
   display: none;
 }
+
 #logo {
   height: 100%;
   width: 114px;
@@ -115,9 +123,7 @@ nav .time {
   display: flex;
   flex-direction: row;
   gap: 2px;
-
   align-items: center;
-
   margin: 0 auto;
   padding: 0;
   width: 100%;
@@ -172,8 +178,6 @@ nav .time {
   height: 100%;
 }
 
-/* .recent-works .header-button { */
-
 .about .header-button {
   height: 40px;
   width: 40px;
@@ -184,19 +188,14 @@ nav .time {
   place-items: center;
 }
 
-/* Works */
 .recent-works {
   width: 100%;
   height: 100%;
   padding-left: 24px;
   padding-right: 24px;
   margin: 0 auto;
-
   margin-bottom: 25px;
   margin-top: 25px;
-
-  margin-top: 156px;
-  margin-top: 24px;
 }
 
 .about-back {
@@ -236,8 +235,7 @@ nav .time {
 .works-title-back {
   width: 100%;
 }
-/* 
-.cards-portfolio */
+
 .about-me {
   padding: 114px 24px;
 }
@@ -257,7 +255,6 @@ nav .time {
   grid-row-gap: 1.5rem;
 }
 
-/* Card */
 .cards-portfolio .project {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -485,15 +482,6 @@ nav .time {
   background: #008552;
 }
 
-/* .social-bottom-container .social-bottom-icons { */
-
-.social-media-container ul {
-  height: 20px;
-  width: 170px;
-  margin: 0 auto;
-  padding: 0;
-}
-
 .social-media-container {
   position: absolute;
   bottom: 3.9%;
@@ -609,14 +597,12 @@ footer {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-
     text-align: center;
   }
 
   .support-text p {
     margin: 0 auto;
     padding: 0 20%;
-
     width: 100%;
   }
 
