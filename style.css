@@ -44,13 +44,6 @@ nav {
   height: 48px;
 }
 
-.social-media-container ul {
-  height: 20px;
-  width: 170px;
-  margin: 0 auto;
-  padding: 0;
-}
-
 #nav ul {
   display: none;
 }
@@ -91,6 +84,11 @@ nav .time {
   left: 0;
   width: 410px;
   height: 620px;
+  z-index: -1;
+}
+
+.dt-intro {
+  display: none;
 }
 
 .title-back h2,
@@ -125,10 +123,8 @@ nav .time {
   gap: 2px;
   align-items: center;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 24px;
   width: 100%;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .title-back {
@@ -141,23 +137,6 @@ nav .time {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
-}
-
-.social-top-icons {
-  margin: 0 auto;
-  height: 20%;
-  padding: 1% 10%;
-}
-
-.social-media-icons {
-  margin: 0 auto;
-  margin-bottom: 135px;
-  margin-top: 60px;
-  padding: 20px 25px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .intro .social-icon {
@@ -482,13 +461,6 @@ nav .time {
   background: #008552;
 }
 
-.social-media-container {
-  position: absolute;
-  bottom: 3.9%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .about .social-icon i {
   color: #505f79;
 }
@@ -537,7 +509,7 @@ footer {
   transform: translateX(-50%);
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 780px) {
   .nav-child {
     display: none;
   }
@@ -547,18 +519,21 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 72px;
+    height: 50px;
+    z-index: -1;
   }
 
   #nav ul {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
+
   }
 
   #nav ul li a {
-    font-size: 1.3rem;
+    font-size: 12px;
     font-family: Inter, sans-serif;
+    color: black;
   }
 
   .sm-top {
@@ -576,35 +551,46 @@ footer {
   .bg-top {
     display: block;
     position: absolute;
-    top: 0;
+    top: -150px;
     left: 0;
+    z-index: 1;
     width: 1350px;
     height: 700px;
   }
 
-  .title-back h2,
+  .dt-intro{
+    display:block;
+  }
+
+  .dt-intro p {
+    margin: 0 auto;
+    padding: 0 20%;
+    width: 100%;
+  }
+
+  .dt-intro h2,
   .support-text p {
     text-align: center;
   }
 
-  .title-back,
-  .support-text,
+  .dt-intro
   .social-media {
     position: relative;
   }
 
-  .title-back h2 {
+  .dt-intro p {
     margin: 0 auto;
     padding: 0;
     width: 100%;
     text-align: center;
   }
 
-  .support-text p {
-    margin: 0 auto;
-    padding: 0 20%;
-    width: 100%;
+  .title-back,
+  .support-text {
+    display: none;
   }
+
+  /* desktop intro end */
 
   .about-back p {
     max-width: 920px;
