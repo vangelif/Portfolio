@@ -102,7 +102,6 @@ nav .time {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  
 }
 
 .bg-top {
@@ -530,7 +529,6 @@ footer {
     display: flex;
     align-items: center;
     gap: 15px;
-
   }
 
   #nav ul li a {
@@ -561,10 +559,10 @@ footer {
     height: 700px;
   }
 
-  .dt-intro{
-    display:block;
+  .dt-intro {
+    display: block;
   }
-  
+
   .dt-intro h2,
   .support-text p {
     text-align: center;
@@ -575,9 +573,7 @@ footer {
     font-weight: 700;
   }
 
-
-  .dt-intro
-  .social-media {
+  .dt-intro .social-media {
     position: relative;
     padding: 2%;
   }
@@ -596,7 +592,8 @@ footer {
 
   /* desktop intro end */
 
-  .break, .underline {
+  .break,
+  .underline {
     display: none;
   }
 
@@ -640,7 +637,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-  } 
+  }
 
   .frame2x {
     display: block;
@@ -691,8 +688,8 @@ footer {
 
   .form-container {
     width: 684px;
-    padding: 0 2%;        
-  } 
+    padding: 0 2%;
+  }
 
   .submit-btn {
     align-self: flex-start;
