@@ -101,6 +101,8 @@ nav .time {
 .social-media {
   position: relative;
   width: 100%;
+  margin: 0 auto;
+  
 }
 
 .bg-top {
@@ -114,16 +116,17 @@ nav .time {
 }
 
 .social-media {
-  width: 170.17px;
+  width: 200.17px;
+  padding: 3%;
 }
 
 .social-media .social-top {
   display: flex;
   flex-direction: row;
-  gap: 2px;
+  gap: 10px;
   align-items: center;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 10px;
   width: 100%;
 }
 
@@ -490,7 +493,7 @@ nav .time {
   gap: 8px;
 }
 
-.social-media-icons .social-icon i,
+.social-top .social-icon i,
 .social-bottom-icons .social-icon i {
   color: #505f79;
 }
@@ -552,7 +555,7 @@ footer {
     display: block;
     position: absolute;
     top: -150px;
-    left: 0;
+    left: -30px;
     z-index: 1;
     width: 1350px;
     height: 700px;
@@ -561,26 +564,27 @@ footer {
   .dt-intro{
     display:block;
   }
-
-  .dt-intro p {
-    margin: 0 auto;
-    padding: 0 20%;
-    width: 100%;
-  }
-
+  
   .dt-intro h2,
   .support-text p {
     text-align: center;
   }
 
+  .dt-intro h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+
   .dt-intro
   .social-media {
     position: relative;
+    padding: 2%;
   }
 
   .dt-intro p {
     margin: 0 auto;
-    padding: 0;
+    padding: 1% 20%;
     width: 100%;
     text-align: center;
   }
@@ -591,6 +595,10 @@ footer {
   }
 
   /* desktop intro end */
+
+  .break, .underline {
+    display: none;
+  }
 
   .about-back p {
     max-width: 920px;
