@@ -25,68 +25,93 @@
             <i class="fas fa-bars"></i>
           </div>
         </div>
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
     </header>
     <!-- End header -->
     <!-- Headline -->
-    <section class="about">
+    <section class="intro">
+      <img src="images/header-illsutration-mobile.png" class="sm-top" />
+      <img src="images/bg-top.png" class="bg-top" />
+      
+      <!--Mobile version intro-->
       <div class="title-back">
-        <h2 style="margin: 25px 5px">Hey there. I’m Vangelis</h2>
-        <h2 style="color: green; margin: 10px 2px">I’m a software developer</h2>
+        <h2>Hey there. I’m Vangelis</h2>
+        <h2 style="color: green">I’m a software developer</h2>
       </div>
-      <div
-        class="support-text"
-        style="
-          margin: 50px 2px;
-          height: 100%;
-          padding: 15px 10px;
-          font-size: 20px;
-          color: #172b4d;
-          text-align: center;
-        "
-      >
+      <div class="support-text">
         <p>
           I can help you build a product, feature or website. Look through some
           of my work and experience! If you like what you see and have a project
           you need coded, don’t hesitate to contact me.
-        </p>
+        </p>    
+        <div class="social-media">
+          <ul class="social-top">
+            <li class="social-icon">
+              <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="social-icon">
+              <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li class="social-icon">
+              <a href="" target="_blank"> <i class="fab fa-medium-m"></i></a>
+            </li>
+            <li class="social-icon">
+              <a href="" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-icon">
+              <a href="" target="_blank"><i class="fab fa-angellist"></i></a>
+            </li>
+          </ul>
+        </div>      
       </div>
-      <!-- Social links -->
-      <ul class="social-media-icons">
-        <li class="social-icon">
-          <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
-        </li>
-        <li class="social-icon">
-          <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-        </li>
-        <li class="social-icon">
-          <a href="" target="_blank"> <i class="fab fa-medium-m"></i></a>
-        </li>
-        <li class="social-icon">
-          <a href="" target="_blank"><i class="fab fa-github"></i></a>
-        </li>
-        <li class="social-icon">
-          <a href="" target="_blank"><i class="fab fa-angellist"></i></a>
-        </li>
-      </ul>
-      <!-- Button -->
-      <div class="header-button">
-        <i class="fas fa-chevron-down"></i>
-      </div>
-      <!-- End button -->
+
+      <!-- display: none to mobile, display to desktop -->
+      <div class="dt-intro">        
+          <h2>Hey there. I’m Vangelis</h2>
+          <h2 style="color: green">I’m a software developer</h2>    
+          <p>
+            I can help you build a product, feature or website. Look through some
+            of my work and experience! If you like what you see and have a project
+            you need coded, don’t hesitate to contact me.
+          </p>   
+          <div class="social-media">
+            <ul class="social-top">
+              <li class="social-icon">
+                <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="social-icon">
+                <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li class="social-icon">
+                <a href="" target="_blank"> <i class="fab fa-medium-m"></i></a>
+              </li>
+              <li class="social-icon">
+                <a href="" target="_blank"><i class="fab fa-github"></i></a>
+              </li>
+              <li class="social-icon">
+                <a href="" target="_blank"><i class="fab fa-angellist"></i></a>
+              </li>
+            </ul>
+          </div>     
+      </div>   
+      <img src="images/scroll-button.png" class="header-button">
     </section>
-    <!-- End Headline -->
-    <!-- Works -->
-    <section class="section">
+
+
+    <section class="recent-works">
       <div class="works-title-back">
         <h2>
-          My Recent <br />
-          Works
+          My Recent <span class="break"> </br> </span> Works
         </h2>
         <div class="underline"></div>
       </div>
       <!-- Projects -->
-      <div class="cards-container">
+      <div class="cards-portfolio">
         <!-- project -->
         <div class="project">
           <div class="image-back"></div>
@@ -124,7 +149,7 @@
                 >
               </li>
             </ul>
-            <button class="section-button btn-hover btn-active btn-pressed">
+            <button class="works-button btn-hover btn-active btn-pressed">
               See Project
             </button>
           </div>
@@ -154,7 +179,7 @@
                 <button class="btn-hover btn-active btn-pressed">HTML</button>
               </li>
             </ul>
-            <button class="section-button btn-hover btn-active btn-pressed">
+            <button class="works-button btn-hover btn-active btn-pressed">
               See Project
             </button>
           </div>
@@ -184,7 +209,7 @@
                 <button class="btn-hover btn-active btn-pressed">HTML</button>
               </li>
             </ul>
-            <button class="section-button btn-hover btn-active btn-pressed">
+            <button class="works-button btn-hover btn-active btn-pressed">
               See Project
             </button>
           </div>
@@ -213,7 +238,7 @@
                 <button class="btn-hover btn-active btn-pressed">HTML</button>
               </li>
             </ul>
-            <button class="section-button btn-hover btn-active btn-pressed">
+            <button class="works-button btn-hover btn-active btn-pressed">
               See Project
             </button>
           </div>
@@ -242,7 +267,7 @@
                 <button class="btn-hover btn-active btn-pressed">HTML</button>
               </li>
             </ul>
-            <button class="section-button btn-hover btn-active btn-pressed">
+            <button class="works-button btn-hover btn-active btn-pressed">
               See Project
             </button>
           </div>
@@ -271,7 +296,7 @@
                 <button class="btn-hover btn-active btn-pressed">HTML</button>
               </li>
             </ul>
-            <button class="section-button btn-hover btn-active btn-pressed">
+            <button class="works-button btn-hover btn-active btn-pressed">
               See Project
             </button>
           </div>
@@ -280,7 +305,7 @@
       </div>
     </section>
     <!-- About me section -->
-    <section class="section">
+    <section class="about-me">
       <div class="about-back">
         <h2>About me</h2>
         <p
@@ -295,13 +320,13 @@
           of my work and experience! If you like what you see and have a project
           you need coded, don’t hestiate to contact me.
         </p>
-        <button class="section-button btn-hover btn-active btn-pressed">
+        <button class="works-button btn-hover btn-active btn-pressed">
           Get my Resume
         </button>
       </div>
     </section>
     <!--Cards -->
-    <section class="section">
+    <section class="more-languages">
       <!-- Card -->
       <div class="cards-container">
         <div class="card">
@@ -476,13 +501,8 @@
     <section class="contact-form">
       <div class="contact-msg">
         <h2>
-          I 'm always<br />
-          interested in<br />
-          hearing about<br />
-          new projects, so<br />
-          if you'd like to<br />
-          chat, please get<br />
-          in touch.
+          I 'm always interested in hearing about new projects, so if you'd like
+          to chat, please get in touch.
         </h2>
       </div>
       <div class="form-container">
@@ -516,26 +536,51 @@
           <input type="submit" class="submit-btn" value="Get in touch" />
         </form>
       </div>
-      <div class="social-media-container">
-        <ul class="social-media-icons">
-          <li class="social-icon">
-            <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li class="social-icon">
-            <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-          </li>
-          <li class="social-icon">
-            <a href="" target="_blank"> <i class="fab fa-medium-m"></i></a>
-          </li>
-          <li class="social-icon">
-            <a href="" target="_blank"><i class="fab fa-github"></i></a>
-          </li>
-          <li class="social-icon">
-            <a href="" target="_blank"><i class="fab fa-angellist"></i></a>
-          </li>
-        </ul>
-      </div>
-      <footer>https://vangelis.website</footer>
     </section>
+    <img
+      src="images/Frame@2x.png"
+      class="imag frame2x"
+      width="360"
+      ,
+      height="450"
+      ;
+    />
+    <img
+      src="images/small-frame.png"
+      class="imag small-frame"
+      width="130"
+      ,
+      height="105"
+    />
+    <img
+      src="images/frame-one.png"
+      class="imag frame-one"
+      width="236"
+      ,
+      height="261"
+    />
+
+    <div class="social-bottom-container">
+      <ul class="social-bottom-icons">
+        <li class="social-icon">
+          <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="social-icon">
+          <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </li>
+        <li class="social-icon">
+          <a href="" target="_blank"> <i class="fab fa-medium-m"></i></a>
+        </li>
+        <li class="social-icon">
+          <a href="" target="_blank"><i class="fab fa-github"></i></a>
+        </li>
+        <li class="social-icon">
+          <a href="" target="_blank"><i class="fab fa-angellist"></i></a>
+        </li>
+      </ul>
+    </div>
+    <footer>
+      <a href="https://vangelis.website">Vangelis Webpage</a>
+    </footer>
   </body>
 </html>
