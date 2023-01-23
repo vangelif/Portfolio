@@ -658,6 +658,7 @@ footer a {
     position: absolute;
     bottom: 3.8%;
     left: 274px;
+    transition: all 0.8s ease-in;
   }
 
   .frame-one {
@@ -743,10 +744,6 @@ footer a {
 
   .icon:hover {
     transform: translateY(20px);
-  }
-
-  .small-frame {
-    transition: all 0.8s ease-in;
   }
 
   .small-frame:hover {
