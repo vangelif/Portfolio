@@ -57,7 +57,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link] Live Demo will be available soon. 
+- Click to check out live demo 👉 [https://vangelif.github.io/Portfolio/]. 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
