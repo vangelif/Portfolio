@@ -529,13 +529,14 @@ footer a {
     align-items: center;
     width: 100%;
     height: 50px;
-    z-index: -1;
+    z-index: 0;
   }
 
   #nav ul {
     display: flex;
     align-items: center;
     gap: 15px;
+
   }
 
   #nav ul li a {
@@ -562,7 +563,7 @@ footer a {
     top: -150px;
     left: -30px;
     z-index: 1;
-    width: 1350px;
+    width: 100vw;
     height: 700px;
   }
 
@@ -602,6 +603,10 @@ footer a {
   .break,
   .underline {
     display: none;
+  }
+
+  .about-back {
+    width: 100vw;
   }
 
   .about-back p {
@@ -750,3 +755,27 @@ footer a {
     transform: rotate(360deg);
   }
 }
+
+@media screen and (min-width: 1440px) {
+
+  .bg-top {
+    display: block;
+    position: absolute;
+    top: -150px;
+    left: -30px;
+    z-index: 1;
+    width: 100vw;
+    height: 700px;
+  }
+  /* nav{
+    position: fixed;
+    z-index: 2;
+    background-color: whitesmoke;
+  }*/
+
+  .about-back {
+    width:100vw;
+  }
+
+
+} 
