@@ -67,6 +67,36 @@ nav .time {
   place-items: center;
 }
 
+.btn-menu {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: 1200;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.btn-menu > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.btn-menu > ul > li > a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3A4A42;
+}
+
 /* Headline */
 .intro {
   display: flex;
