@@ -1,13 +1,13 @@
 const btn = document.querySelector('#btn-menu');
 
-btn.addEventListener('click', function () {
+btn.addEventListener('click', () => {
   const menu = document.querySelector('.btn-menu');
   menu.style.display = 'flex';
 });
 
 const xBtn = document.querySelector('.fa-xmark');
 
-xBtn.addEventListener('click', function () {
+xBtn.addEventListener('click', () => {
   const menu = document.querySelector('.btn-menu');
   menu.style.display = 'none';
 });
