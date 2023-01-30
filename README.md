@@ -151,10 +151,13 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Place registration form and merchandise basket] **[Upgrade the hmtl file]**
-- [Total of six projects on discussions] **[Create a description of main and side projects]**
-- [Series of videos and learning refences] **[Create either a carousel or a column of videos and their thumbnails]**
-- [Include pre-Covid working experience] **[Update on latest working experiences]**
+- [Implement desktop version] 
+- [Use local storage to save data] 
+- [Validate the contact form]
+- [Insert popup windows] 
+- [Total of six projects on discussions] 
+- [Series of videos and learning refences] 
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
