@@ -1,32 +1,32 @@
-let btn = document.querySelector("#btn-menu");
+const btn = document.querySelector('#btn-menu');
 
-btn.addEventListener("click", function () {
-  let menu = document.querySelector(".btn-menu");
-  menu.style.display = "flex";
+btn.addEventListener('click', function () {
+  const menu = document.querySelector('.btn-menu');
+  menu.style.display = 'flex';
 });
 
-let xBtn = document.querySelector(".fa-xmark");
+const xBtn = document.querySelector('.fa-xmark');
 
-xBtn.addEventListener("click", function () {
-  let menu = document.querySelector(".btn-menu");
-  menu.style.display = "none";
+xBtn.addEventListener('click', function () {
+  const menu = document.querySelector('.btn-menu');
+  menu.style.display = 'none';
 });
 
-let portfolioLink = document.querySelector("#portfolio-link");
-let aboutLink = document.querySelector("#about-link");
-let contactLink = document.querySelector("#contact-link");
+const portfolioLink = document.querySelector('#portfolio-link');
+const aboutLink = document.querySelector('#about-link');
+const contactLink = document.querySelector('#contact-link');
 
-portfolioLink.addEventListener("click", () => {
-  let menu = document.querySelector(".btn-menu");
-  menu.style.display = "none";
+portfolioLink.addEventListener('click', () => {
+  const menu = document.querySelector('.btn-menu');
+  menu.style.display = 'none';
 });
 
-aboutLink.addEventListener("click", () => {
-  let menu = document.querySelector(".btn-menu");
-  menu.style.display = "none";
+aboutLink.addEventListener('click', () => {
+  const menu = document.querySelector('.btn-menu');
+  menu.style.display = 'none';
 });
 
-contactLink.addEventListener("click", () => {
-  let menu = document.querySelector(".btn-menu");
-  menu.style.display = "none";
+contactLink.addEventListener('click', () => {
+  const menu = document.querySelector('.btn-menu');
+  menu.style.display = 'none';
 });
