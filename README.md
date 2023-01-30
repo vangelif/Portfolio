@@ -19,9 +19,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [MOBILE MENU] <a name="about-project"></a>
 
-**Portfolio** is a project that we are applying our knowledge on HTML and CSS and Javascript to showcase our most crisp and pristine projects. 
+**MOBILE MENU** is a project that we are applying our knowledge on HTML and CSS and Javascript to showcase our most crisp and pristine projects. 
 ## 🛠 Built With <a name="built-with"></a>
 
 - Use of HTML, CCS and JavaScript
