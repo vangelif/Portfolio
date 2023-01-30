@@ -44,6 +44,13 @@ nav {
   height: 48px;
 }
 
+.btn-menu > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
 #nav ul {
   display: none;
 }
@@ -81,20 +88,13 @@ nav .time {
   align-items: flex-end;
 }
 
-.btn-menu > ul {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
-}
-
-.btn-menu > ul > li > a {
-  font-family: 'Inter';
+.nav-link {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: #3A4A42;
+  color: #3a4a42;
 }
 
 /* Headline */
@@ -566,7 +566,6 @@ footer a {
     display: flex;
     align-items: center;
     gap: 15px;
-
   }
 
   #nav ul li a {
@@ -787,7 +786,6 @@ footer a {
 }
 
 @media screen and (min-width: 1440px) {
-
   .bg-top {
     display: block;
     position: absolute;
@@ -797,15 +795,8 @@ footer a {
     width: 100vw;
     height: 700px;
   }
-  /* nav{
-    position: fixed;
-    z-index: 2;
-    background-color: whitesmoke;
-  }*/
 
   .about-back {
-    width:100vw;
+    width: 100vw;
   }
-
-
-} 
+}
