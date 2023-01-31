@@ -120,6 +120,7 @@ cardsPortfolio.innerHTML += portfolioSection;
 
 
 const worksButtons = document.querySelectorAll('.works-button');
+const popupContainer = document.querySelector('.popup-container');
 const popupMenu = document.querySelector('.popup-menu');
 
 worksButtons.forEach((button) => {
@@ -139,6 +140,16 @@ worksButtons.forEach((button) => {
       <i class="fa fa-close" id="close-popup"></i>
       <img alt="" src="${portfolioItem.featuredImage}" />
       <h2>${portfolioItem.name}</h2>
+      <div class="popup-buttons-desktop">
+        <button>
+          See Live
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </button>
+        <button>
+          See Source
+          <i class="fa-brands fa-github"></i>
+        </button>
+      </div>
       <ul>
         ${technologies}
       </ul>
@@ -156,10 +167,10 @@ worksButtons.forEach((button) => {
         </button>
       </div>
     `;
-    popupMenu.style.display = 'flex';
+    popupContainer.style.display = 'flex';
     const closePopup = document.querySelector('#close-popup');
     closePopup.addEventListener('click', () => {
-      popupMenu.style.display = 'none';
+      popupContainer.style.display = 'none';
     });
   });
 })
