@@ -51,6 +51,12 @@ nav {
   width: 100%;
 }
 
+.popup-menu > ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
 #nav ul {
   display: none;
 }
@@ -181,6 +187,11 @@ nav .time {
   height: 20px;
   display: grid;
   place-items: center;
+}
+
+.popup-menu > i {
+  font-size: 20px;
+  text-align: right;
 }
 
 .intro .social-icon i {
@@ -558,20 +569,18 @@ footer a {
   text-align: left;
   font-family: "Inter", sans-serif;
   border: 1px solid black;
+  border-radius: 8px;
 }
 
 .popup-menu > img {
   width: 100%;
   height: 200px;
+  border-radius: 2%;
+  border: 1px solid black;
 }
 
 .popup-menu > h2 {
   font-size: 40px;
-}
-
-.popup-menu > ul {
-  display: flex;
-  gap: 20px;
 }
 
 .popup-menu > p {
@@ -599,11 +608,6 @@ footer a {
   font-size: 20px;
 }
 
-.popup-menu > i {
-  font-size: 20px;
-  text-align: right;
-}
-
 .popup-container {
   background-color: gray;
   display: none;
@@ -617,7 +621,18 @@ footer a {
   padding: 0 20px;
 }
 
-
+.popup-menu > ul > li > .btn-hover {
+  background: #ebecf0;
+  border-radius: 8px;
+  height: 32px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #344563;
+  padding: 5px;
+}
 
 @media screen and (min-width: 780px) {
   .nav-child {
@@ -631,6 +646,10 @@ footer a {
     width: 100%;
     height: 50px;
     z-index: 0;
+  }
+
+  .popup-menu > ul {
+    gap: 10px;
   }
 
   #nav ul {
@@ -857,10 +876,56 @@ footer a {
 
   .popup-buttons-desktop {
     display: flex;
+    position: absolute;
+    right: 25px;
+    bottom: 140px;
+    gap: 10px;
   }
 
   .popup-buttons {
     display: none;
+  }
+
+  .popup-menu {
+    height: 70vh;
+    position: relative;
+  }
+
+  .popup-menu > img {
+    height: 60%;
+    border: 1px solid black;
+  }
+
+  .popup-menu > .popup-buttons-desktop > button {
+    background: #36b37f;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .popup-menu > h2 {
+    width: 420px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .popup-menu > ul > li > .btn-hover {
+    background: #ebecf0;
+    border-radius: 8px;
+    width: 90px;
+    height: 32px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #344563;
   }
 }
 
@@ -882,6 +947,7 @@ footer a {
   .popup-buttons-desktop {
     display: flex;
   }
+
   .popup-buttons {
     display: none;
   }

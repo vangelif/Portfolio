@@ -31,8 +31,6 @@ contactLink.addEventListener('click', () => {
   menu.style.display = 'none';
 });
 
-//create popup window
-
 const portfolioObj = [
   {
     name: 'Multi-Post Stories <br /> Gain + Glory',
@@ -52,7 +50,8 @@ const portfolioObj = [
   },
   {
     name: 'Multi-Post Stories <br /> Gain + Glory',
-    description: 'lorem  fkwifjijsfvi asfvicasjvasf asdasasasdd  asdasdasd asd d',
+    description:
+      'lorem  fkwifjijsfvi asfvicasjvasf asdasasasdd  asdasdasd asd d',
     featuredImage: '',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
@@ -60,7 +59,8 @@ const portfolioObj = [
   },
   {
     name: 'Multi-Post Stories <br /> Gain + Glory',
-    description: 'lorem asdkfkasndfasdf asdfasd f asdf asdasasasdd  asdasdasd asd d',
+    description:
+      'lorem asdkfkasndfasdf asdfasd f asdf asdasasasdd  asdasdasd asd d',
     featuredImage: '',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
@@ -68,7 +68,8 @@ const portfolioObj = [
   },
   {
     name: 'Multi-Post Stories <br /> Gain + Glory',
-    description: 'lorem adfknkadnfasdf df dasfdfipsum asdasasasdd  asdasdasd asd d',
+    description:
+      'lorem adfknkadnfasdf df dasfdfipsum asdasasasdd  asdasdasd asd d',
     featuredImage: '',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
@@ -76,13 +77,14 @@ const portfolioObj = [
   },
   {
     name: 'Multi-Post Stories <br /> Gain + Glory',
-    description: 'lorem ipasdjfnkasdf asdf asdf sum asdasasasdd  asdasdasd asd d',
+    description:
+      'lorem ipasdjfnkasdf asdf asdf sum asdasasasdd  asdasdasd asd d',
     featuredImage: '',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
     linkSource: '',
   },
-]
+];
 
 const cardsPortfolio = document.querySelector('.cards-portfolio');
 let portfolioSection = '';
@@ -90,34 +92,34 @@ portfolioObj.forEach((item, index) => {
   let technologies = '';
   item.technologies.forEach((tech) => {
     technologies += `<li>
-    <a href="#"
-      ><button class="btn-hover btn-active btn-pressed">
+    <a href='#'
+      ><button class='btn-hover btn-active btn-pressed'>
         ${tech}
       </button></a
     >
   </li>`;
-  })
+  });
 
   const newItem = `
-  <div class="project">
-    <div class="image-back"></div>
-    <div class="project-footer">
-      <div class="project-title-back">
+  <div class='project'>
+    <div class='image-back'></div>
+    <div class='project-footer'>
+      <div class='project-title-back'>
         <h4>${item.name}</h4>
       </div>
-      <ul class="project-buttons-back">
+      <ul class='project-buttons-back'>
         ${technologies}
       </ul>
-      <button id="${index}" class="works-button btn-hover btn-active btn-pressed">
+      <button id='${index}' class='works-button btn-hover btn-active btn-pressed'>
         See Project
       </button>
     </div>
   </div>
-  `
+  `;
   portfolioSection += newItem;
-})
-cardsPortfolio.innerHTML += portfolioSection;
+});
 
+cardsPortfolio.innerHTML += portfolioSection;
 
 const worksButtons = document.querySelectorAll('.works-button');
 const popupContainer = document.querySelector('.popup-container');
@@ -130,24 +132,24 @@ worksButtons.forEach((button) => {
     let technologies = '';
     portfolioItem.technologies.forEach((tech) => {
       technologies += `<li>
-      <button class="btn-hover btn-active btn-pressed">
+      <button class='btn-hover btn-active btn-pressed'>
         ${tech}
       </button>
     </li>`;
     });
 
     popupMenu.innerHTML = `
-      <i class="fa fa-close" id="close-popup"></i>
-      <img alt="" src="${portfolioItem.featuredImage}" />
-      <h2>${portfolioItem.name}</h2>
-      <div class="popup-buttons-desktop">
+      <i class='fa fa-close' id='close-popup'></i>
+      <img alt='' src='${portfolioItem.featuredImage}' />
+      <h2>${portfolioItem.name}</h2>      
+      <div class='popup-buttons-desktop'>
         <button>
           See Live
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <i class='fa-solid fa-arrow-up-right-from-square'></i>
         </button>
         <button>
           See Source
-          <i class="fa-brands fa-github"></i>
+          <i class='fa-brands fa-github'></i>
         </button>
       </div>
       <ul>
@@ -156,14 +158,14 @@ worksButtons.forEach((button) => {
       <p>
         ${portfolioItem.description}
       </p>
-      <div class="popup-buttons">
+      <div class='popup-buttons'>
         <button>
           See Live
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <i class='fa-solid fa-arrow-up-right-from-square'></i>
         </button>
         <button>
           See Source
-          <i class="fa-brands fa-github"></i>
+          <i class='fa-brands fa-github'></i>
         </button>
       </div>
     `;
@@ -173,5 +175,4 @@ worksButtons.forEach((button) => {
       popupContainer.style.display = 'none';
     });
   });
-})
-
+});

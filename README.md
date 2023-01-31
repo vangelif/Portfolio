@@ -24,7 +24,7 @@
 **MOBILE MENU** is a project that we are applying our knowledge on HTML and CSS and Javascript to showcase our most crisp and pristine projects. 
 ## 🛠 Built With <a name="built-with"></a>
 
-- Use of HTML, CCS and JavaScript
+- Use of HTML, CCS and JS
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -51,6 +51,7 @@
 
 ### Key Features <a name="key-features"></a>
 
+- **[Implement desktop version]** 
 - **[Interactive Mobile menu]**
 - **[User will have access to all the projects and used technologies]**
 - **[User will have access to references for further studying]**
@@ -58,9 +59,11 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - Click to check out live demo: 
+
 [https://vangelif.github.io/Portfolio/] 
 
 - Check out a live video here: 
+
 [https://bit.ly/3Jkn3mj]
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -153,7 +156,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Implement desktop version] 
 - [Use local storage to save data] 
 - [Validate the contact form]
 - [Insert popup windows] 
