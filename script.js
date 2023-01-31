@@ -1,5 +1,3 @@
-const { url } = require("stylus");
-
 const btn = document.querySelector('#btn-menu');
 
 btn.addEventListener('click', () => {
@@ -35,11 +33,89 @@ contactLink.addEventListener('click', () => {
 
 //create popup window
 
-const projectObj = {
-  name: 'abc',
-  description: 'cbd',
-  image: 'imageOne',
-  technology: [],
-  linkVersion: 'linkV',
-  linkToSource: 'linkSource'
-} 
+const portfolioObj = [
+  {
+    name: 'Multi-Post Stories <br /> Gain + Glory',
+    description: 'lorem ipsum asdasasasdd  asdasdasd asd d',
+    featuredImage: '',
+    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    liveVersion: '',
+    linkSource: '',
+  },
+  {
+    name: 'Multi-Post Stories <br /> Gain + Glory',
+    description: 'lorem ipsum asdasasasdd  asdasdasd asd d',
+    featuredImage: '',
+    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    liveVersion: '',
+    linkSource: '',
+  },
+  {
+    name: 'Multi-Post Stories <br /> Gain + Glory',
+    description: 'lorem ipsum asdasasasdd  asdasdasd asd d',
+    featuredImage: '',
+    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    liveVersion: '',
+    linkSource: '',
+  },
+  {
+    name: 'Multi-Post Stories <br /> Gain + Glory',
+    description: 'lorem ipsum asdasasasdd  asdasdasd asd d',
+    featuredImage: '',
+    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    liveVersion: '',
+    linkSource: '',
+  },
+  {
+    name: 'Multi-Post Stories <br /> Gain + Glory',
+    description: 'lorem ipsum asdasasasdd  asdasdasd asd d',
+    featuredImage: '',
+    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    liveVersion: '',
+    linkSource: '',
+  },
+  {
+    name: 'Multi-Post Stories <br /> Gain + Glory',
+    description: 'lorem ipsum asdasasasdd  asdasdasd asd d',
+    featuredImage: '',
+    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    liveVersion: '',
+    linkSource: '',
+  },
+]
+
+const cardsPortfolio = document.querySelector('.cards-portfolio');
+let portfolioSection = '';
+portfolioObj.forEach((item) => {
+  let technologies = '';
+  item.technologies.forEach((tech) => {
+    technologies += `<li>
+    <a href="#"
+      ><button class="btn-hover btn-active btn-pressed">
+        ${tech}
+      </button></a
+    >
+  </li>`;
+  })
+
+  const newItem = `
+  <div class="project">
+    <div class="image-back"></div>
+    <div class="project-footer">
+      <div class="project-title-back">
+        <h4>${item.name}</h4>
+      </div>
+      <ul class="project-buttons-back">
+        ${technologies}
+      </ul>
+      <button class="works-button btn-hover btn-active btn-pressed">
+        See Project
+      </button>
+    </div>
+  </div>
+  `
+  portfolioSection += newItem;
+})
+cardsPortfolio.innerHTML += portfolioSection;
+
+
