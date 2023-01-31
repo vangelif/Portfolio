@@ -19,45 +19,47 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [MOBILE MENU] <a name="about-project"></a>
 
-**Portfolio** is a project that we are applying our knowledge on HTML and CSS and showcase our most crisp and pristine projects. 
+**MOBILE MENU** is a project that we are applying our knowledge on HTML and CSS and Javascript to showcase our most crisp and pristine projects. 
 ## 🛠 Built With <a name="built-with"></a>
+
+- Use of HTML, CCS and JavaScript
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Client Graphs</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="">CCS</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>Server</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="">JAVASCRIPT</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
+- **[Interactive Mobile menu]**
 - **[User will have access to all the projects and used technologies]**
 - **[User will have access to references for further studying]**
-- **[User will be updated with the recent working updates]**
-- **[User will be able to arrange consultations and learning sessions]**
-- **[User will be able to purchase merchandise]**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Click to check out live demo 👉 [https://vangelif.github.io/Portfolio/]. 
+- Click to check out live demo: [https://vangelif.github.io/Portfolio/]. 
+
+- Check out a live video here: [https://bit.ly/3Jkn3mj]
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -143,15 +145,19 @@ Example:
 
 👤 **Vangelis**
 
-- GitHub: [@githubhandle](https://github.com/VangeliVangeli)
+- GitHub: [@githubhandle](https://github.com/vangelif)
+- Linkedin: [@linkedinhandle](httpps://linkedin.com/)
 - Twitter: [@twitterhandle](https://twitter.com/vangfot)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Place registration form and merchandise basket] **[Upgrade the hmtl file]**
-- [Total of six projects on discussions] **[Create a description of main and side projects]**
-- [Series of videos and learning refences] **[Create either a carousel or a column of videos and their thumbnails]**
-- [Include pre-Covid working experience] **[Update on latest working experiences]**
+- [Implement desktop version] 
+- [Use local storage to save data] 
+- [Validate the contact form]
+- [Insert popup windows] 
+- [Total of six projects on discussions] 
+- [Series of videos and learning refences] 
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
