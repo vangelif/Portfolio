@@ -1,3 +1,5 @@
+const { url } = require("stylus");
+
 const btn = document.querySelector('#btn-menu');
 
 btn.addEventListener('click', () => {
@@ -30,3 +32,14 @@ contactLink.addEventListener('click', () => {
   const menu = document.querySelector('.btn-menu');
   menu.style.display = 'none';
 });
+
+//create popup window
+
+const projectObj = {
+  name: 'abc',
+  description: 'cbd',
+  image: 'imageOne',
+  technology: [],
+  linkVersion: 'linkV',
+  linkToSource: 'linkSource'
+} 
