@@ -548,6 +548,57 @@ footer a {
   font-size: 20px;
 }
 
+.popup-menu {
+  width: 95%;
+  /* height: 100vw; */
+  background-color: white;
+  position: absolute;
+  border: 1px solid red;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+}
+
+.popup-menu > img {
+  width: 100%;
+  height: 200px;
+}
+
+.popup-menu > h2 {
+  font-size: 40px;
+}
+
+.popup-menu > ul {
+  display: flex;
+  gap: 20px;
+}
+
+.popup-menu > p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.popup-buttons > button {
+  width: 50%;
+  padding: 15px;
+  background: #36b37f;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+}
+
+
+
 @media screen and (min-width: 780px) {
   .nav-child {
     display: none;
