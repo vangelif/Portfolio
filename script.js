@@ -52,7 +52,7 @@ const portfolioObj = [
   },
   {
     name: 'Multi-Post Stories <br /> Gain + Glory',
-    description: 'lorem ipsum asdasasasdd  asdasdasd asd d',
+    description: 'lorem  fkwifjijsfvi asfvicasjvasf asdasasasdd  asdasdasd asd d',
     featuredImage: '',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
@@ -60,7 +60,7 @@ const portfolioObj = [
   },
   {
     name: 'Multi-Post Stories <br /> Gain + Glory',
-    description: 'lorem ipsum asdasasasdd  asdasdasd asd d',
+    description: 'lorem asdkfkasndfasdf asdfasd f asdf asdasasasdd  asdasdasd asd d',
     featuredImage: '',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
@@ -68,7 +68,7 @@ const portfolioObj = [
   },
   {
     name: 'Multi-Post Stories <br /> Gain + Glory',
-    description: 'lorem ipsum asdasasasdd  asdasdasd asd d',
+    description: 'lorem adfknkadnfasdf df dasfdfipsum asdasasasdd  asdasdasd asd d',
     featuredImage: '',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
@@ -76,7 +76,7 @@ const portfolioObj = [
   },
   {
     name: 'Multi-Post Stories <br /> Gain + Glory',
-    description: 'lorem ipsum asdasasasdd  asdasdasd asd d',
+    description: 'lorem ipasdjfnkasdf asdf asdf sum asdasasasdd  asdasdasd asd d',
     featuredImage: '',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
@@ -86,7 +86,7 @@ const portfolioObj = [
 
 const cardsPortfolio = document.querySelector('.cards-portfolio');
 let portfolioSection = '';
-portfolioObj.forEach((item) => {
+portfolioObj.forEach((item, index) => {
   let technologies = '';
   item.technologies.forEach((tech) => {
     technologies += `<li>
@@ -108,7 +108,7 @@ portfolioObj.forEach((item) => {
       <ul class="project-buttons-back">
         ${technologies}
       </ul>
-      <button class="works-button btn-hover btn-active btn-pressed">
+      <button id="${index}" class="works-button btn-hover btn-active btn-pressed">
         See Project
       </button>
     </div>
@@ -118,4 +118,49 @@ portfolioObj.forEach((item) => {
 })
 cardsPortfolio.innerHTML += portfolioSection;
 
+
+const worksButtons = document.querySelectorAll('.works-button');
+const popupMenu = document.querySelector('.popup-menu');
+
+worksButtons.forEach((button) => {
+  button.addEventListener('click', (e) => {
+    const portfolioItem = portfolioObj[Number(e.target.id)];
+
+    let technologies = '';
+    portfolioItem.technologies.forEach((tech) => {
+      technologies += `<li>
+      <button class="btn-hover btn-active btn-pressed">
+        ${tech}
+      </button>
+    </li>`;
+    });
+
+    popupMenu.innerHTML = `
+      <i class="fa fa-close" id="close-popup"></i>
+      <img alt="" src="${portfolioItem.featuredImage}" />
+      <h2>${portfolioItem.name}</h2>
+      <ul>
+        ${technologies}
+      </ul>
+      <p>
+        ${portfolioItem.description}
+      </p>
+      <div class="popup-buttons">
+        <button>
+          See Live
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </button>
+        <button>
+          See Source
+          <i class="fa-brands fa-github"></i>
+        </button>
+      </div>
+    `;
+    popupMenu.style.display = 'flex';
+    const closePopup = document.querySelector('#close-popup');
+    closePopup.addEventListener('click', () => {
+      popupMenu.style.display = 'none';
+    });
+  });
+})
 

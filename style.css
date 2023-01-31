@@ -549,17 +549,18 @@ footer a {
 }
 
 .popup-menu {
-  width: 95%;
-  /* height: 100vw; */
+  width: 95vw;
+  position: fixed;
+  z-index: 1000;
+  top: 100px;
   background-color: white;
-  position: absolute;
-  border: 1px solid red;
   padding: 15px;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 15px;
   text-align: left;
   font-family: "Inter", sans-serif;
+  border: 1px solid black;
 }
 
 .popup-menu > img {
@@ -595,6 +596,11 @@ footer a {
   border-radius: 4px;
   color: white;
   font-size: 20px;
+}
+
+.popup-menu > i {
+  font-size: 20px;
+  text-align: right;
 }
 
 
