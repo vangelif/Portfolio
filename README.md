@@ -177,5 +177,5 @@ For this project many hours have been invested. For that reason, I would like to
 
   ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 

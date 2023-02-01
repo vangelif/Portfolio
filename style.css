@@ -561,6 +561,7 @@ footer a {
 
 .popup-menu {
   width: 100%;
+  height: max-content;
   background-color: white;
   padding: 15px;
   display: flex;
@@ -580,7 +581,7 @@ footer a {
 }
 
 .popup-menu > h2 {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .popup-menu > p {
@@ -593,6 +594,11 @@ footer a {
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 .popup-buttons-desktop {
@@ -611,14 +617,15 @@ footer a {
 .popup-container {
   background-color: gray;
   display: none;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 0 20px;
+  z-index: 1000;
+  overflow-y: auto;
+  padding: 50px 20px;
 }
 
 .popup-menu > ul > li > .btn-hover {
@@ -893,6 +900,7 @@ footer a {
 
   .popup-menu > img {
     height: 60%;
+    object-fit: cover;
     border: 1px solid black;
   }
 
