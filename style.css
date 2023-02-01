@@ -51,6 +51,12 @@ nav {
   width: 100%;
 }
 
+.popup-menu > ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
 #nav ul {
   display: none;
 }
@@ -181,6 +187,11 @@ nav .time {
   height: 20px;
   display: grid;
   place-items: center;
+}
+
+.popup-menu > i {
+  font-size: 30px;
+  text-align: right;
 }
 
 .intro .social-icon i {
@@ -548,6 +559,110 @@ footer a {
   font-size: 20px;
 }
 
+.popup-menu {
+  width: 100%;
+  height: max-content;
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.popup-menu img {
+  width: 100%;
+  border-radius: 2%;
+}
+
+.popup-container .popup-menu > i {
+  display: none;
+}
+
+.close-popup-image {
+  position: relative;
+  width: 100%;
+}
+
+.popup-menu .close-popup-image i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: white;
+}
+
+.popup-menu h2 {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+}
+
+.popup-menu > p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.popup-buttons-desktop {
+  display: none;
+}
+
+.popup-buttons > button {
+  width: 50%;
+  padding: 15px;
+  background: #36b37f;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.popup-container {
+  background-color: gray;
+  display: none;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  overflow-y: auto;
+  padding: 50px 20px;
+}
+
+.popup-menu > ul > li > button {
+  border: none;
+  outline: none;
+}
+
+.popup-menu > ul > li > .btn-hover {
+  background: #ebecf0;
+  border-radius: 8px;
+  height: 32px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #344563;
+  padding: 5px;
+}
+
 @media screen and (min-width: 780px) {
   .nav-child {
     display: none;
@@ -560,6 +675,22 @@ footer a {
     width: 100%;
     height: 50px;
     z-index: 0;
+  }
+
+  .popup-menu > ul {
+    gap: 10px;
+  }
+
+  .popup-menu > ul > li {
+    font-size: 0;
+  }
+
+  .popup-menu i {
+    display: block;
+  }
+
+  .close-popup-image i {
+    display: none;
   }
 
   #nav ul {
@@ -783,6 +914,73 @@ footer a {
   .small-frame:hover {
     transform: rotate(360deg);
   }
+
+  .popup-buttons-desktop {
+    display: flex;
+    gap: 10px;
+  }
+
+  .popup-buttons {
+    display: none;
+  }
+
+  .popup-menu {
+    max-width: 650px;
+    position: relative;
+  }
+
+  #close-popup {
+    display: block;
+    align-self: flex-end;
+    padding: 4px;
+    background-color: #ebecf0;
+    color: #c6c4c4;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .popup-menu img {
+    object-fit: cover;
+  }
+
+  .popup-menu .popup-buttons-desktop > button {
+    background: #36b37f;
+    border-radius: 12px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+  }
+
+  .popup-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .popup-menu h2 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #172b4d;
+    width: 50%;
+  }
+
+  .popup-menu > ul > li > .btn-hover {
+    background: #ebecf0;
+    border-radius: 8px;
+    width: 90px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #344563;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -798,5 +996,13 @@ footer a {
 
   .about-back {
     width: 100vw;
+  }
+
+  .popup-buttons-desktop {
+    display: flex;
+  }
+
+  .popup-buttons {
+    display: none;
   }
 }

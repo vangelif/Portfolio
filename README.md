@@ -24,7 +24,7 @@
 **MOBILE MENU** is a project that we are applying our knowledge on HTML and CSS and Javascript to showcase our most crisp and pristine projects. 
 ## 🛠 Built With <a name="built-with"></a>
 
-- Use of HTML, CCS and JavaScript
+- Use of HTML, CCS and JS
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -36,7 +36,7 @@
 </details>
 
 <details>
-  <summary>Client Graphs</summary>
+  <summary>Graphs</summary>
   <ul>
     <li><a href="">CCS</a></li>
   </ul>
@@ -51,15 +51,20 @@
 
 ### Key Features <a name="key-features"></a>
 
+- **[Implement desktop version]** 
 - **[Interactive Mobile menu]**
 - **[User will have access to all the projects and used technologies]**
 - **[User will have access to references for further studying]**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Click to check out live demo: [https://vangelif.github.io/Portfolio/]. 
+- Click to check out live demo: 
 
-- Check out a live video here: [https://bit.ly/3Jkn3mj]
+[https://vangelif.github.io/Portfolio/] 
+
+- Check out a live video here: 
+
+[https://bit.ly/3Jkn3mj]
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -145,13 +150,12 @@ Example:
 
 👤 **Vangelis**
 
-- GitHub: [@githubhandle](https://github.com/vangelif)
-- Linkedin: [@linkedinhandle](httpps://linkedin.com/)
-- Twitter: [@twitterhandle](https://twitter.com/vangfot)
+- [@github](https://github.com/vangelif)
+- [@twitter](https://twitter.com/vangfot)
+- [@linkedin](https://www.linkedin.com/in/vangelis-f-53025a53)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Implement desktop version] 
 - [Use local storage to save data] 
 - [Validate the contact form]
 - [Insert popup windows] 
@@ -161,9 +165,7 @@ Example:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to come in touch with the author and arrange a meeting and make your contributions truly valuable. 
+Contributions, issues, and feature requests are welcome! Feel free to come in touch with the author and arrange a meeting and make your contributions truly valuable. 
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -175,5 +177,6 @@ For this project many hours have been invested. For that reason, I would like to
 
   ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is <a href="https://github.com/vangelif/Portfolio/blob/popup-window/license.md">MIT licensed</a>.
+
 
