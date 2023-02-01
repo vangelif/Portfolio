@@ -177,6 +177,6 @@ For this project many hours have been invested. For that reason, I would like to
 
   ## 📝 License <a name="license"></a>
 
-This project is <a href="https://github.com/vangelif/Portfolio/blob/popup-window/license.md">[MIT] licensed</a>.
+This project is <a href="https://github.com/vangelif/Portfolio/blob/popup-window/license.md">MIT licensed</a>.
 
 
