@@ -179,3 +179,16 @@ worksButtons.forEach((button) => {
     });
   });
 });
+
+function validateForm(e) {
+  const emailInput = document.querySelector('.email-form');
+
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    document.querySelector('#error-message').style.display = 'block';
+    e.preventDefault();
+    e.stopPropagation();
+  }
+}
+
+const contactForm = document.forms['contact-form'];
+contactForm.addEventListener('submit', validateForm);
