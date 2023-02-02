@@ -84,6 +84,7 @@ const portfolioObj = [
 
 const cardsPortfolio = document.querySelector('.cards-portfolio');
 let portfolioSection = '';
+
 portfolioObj.forEach((item, index) => {
   let technologies = '';
   item.technologies.forEach((tech) => {
@@ -192,3 +193,22 @@ function validateForm(e) {
 
 const contactForm = document.forms['contact-form'];
 contactForm.addEventListener('submit', validateForm);
+
+const nameBox = document.getElementById('name-box');
+const emailBox = document.getElementById('email-box');
+const textBox = document.getElementById('text-box');
+
+contactForm.addEventListener('input', () => {
+  const formData = {
+    name: nameBox.value,
+    email: emailBox.value,
+    message: textBox.value,
+  };
+  localStorage.setItem('user-data', JSON.stringify(formData));
+});
+
+const getDataFromLocalStorage = JSON.parse(localStorage.getItem('user-data'));
+
+nameBox.value = getDataFromLocalStorage.name;
+emailBox.value = getDataFromLocalStorage.email;
+textBox.value = getDataFromLocalStorage.message;

@@ -51,20 +51,16 @@
 
 ### Key Features <a name="key-features"></a>
 
+- **[Use local storage to save data]** 
+- **[Validate the contact form]**
 - **[Implement desktop version]** 
 - **[Interactive Mobile menu]**
-- **[User will have access to all the projects and used technologies]**
-- **[User will have access to references for further studying]**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Click to check out live demo: 
+- <a href="https://vangelif.github.io/Portfolio/">Check out the live demo</a> 
 
-[https://vangelif.github.io/Portfolio/] 
-
-- Check out a live video here: 
-
-[https://bit.ly/3Jkn3mj]
+- <a href="https://bit.ly/3Jkn3mj">Check out the live video</a> 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -152,16 +148,14 @@ Example:
 
 - [@github](https://github.com/vangelif)
 - [@twitter](https://twitter.com/vangfot)
-- [@linkedin](https://www.linkedin.com/in/vangelis-f-53025a53)
+- [@linkedin](https://www.linkedin.com/in/vangfot/)
+- [@articles](https://vangelis.website/essays)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Use local storage to save data] 
-- [Validate the contact form]
 - [Insert popup windows] 
 - [Total of six projects on discussions] 
 - [Series of videos and learning refences] 
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
