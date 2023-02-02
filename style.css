@@ -260,6 +260,9 @@ nav .time {
 
 #error-message {
   display:none;
+  color: red;
+  font-family: Inter, sans-serif;
+  text-align: center;
 }
 
 .about-me {
@@ -421,12 +424,10 @@ nav .time {
 
 .form-container {
   width: 327px;
-  height: 330px;
 }
 
 .input-form {
   width: 100%;
-  height: 48px;
   position: relative;
 }
 
