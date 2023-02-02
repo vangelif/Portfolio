@@ -192,3 +192,9 @@ function validateForm(e) {
 
 const contactForm = document.forms['contact-form'];
 contactForm.addEventListener('submit', validateForm);
+
+const contactBox = document.querySelector('.contact-form');
+const nameBox = document.getElementById('name-box');
+const emailBox = document.getElementById('email-box');
+const textBox = document.getElementById('text-box');
+
