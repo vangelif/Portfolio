@@ -193,8 +193,15 @@ function validateForm(e) {
 const contactForm = document.forms['contact-form'];
 contactForm.addEventListener('submit', validateForm);
 
-const contactBox = document.querySelector('.contact-form');
 const nameBox = document.getElementById('name-box');
 const emailBox = document.getElementById('email-box');
 const textBox = document.getElementById('text-box');
 
+contactForm.addEventListener('input', () => {
+  const formData = {
+    name: nameBox.value,
+    email: emailBox.value,
+    message: textBox.value,
+  };
+  localStorage.setItem('user-data', JSON.stringify(formData));
+});
