@@ -84,6 +84,7 @@ const portfolioObj = [
 
 const cardsPortfolio = document.querySelector('.cards-portfolio');
 let portfolioSection = '';
+
 portfolioObj.forEach((item, index) => {
   let technologies = '';
   item.technologies.forEach((tech) => {
