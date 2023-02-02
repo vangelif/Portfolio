@@ -258,6 +258,10 @@ nav .time {
   width: 100%;
 }
 
+#error-message {
+  display:none;
+}
+
 .about-me {
   padding: 75px 2px;
 }

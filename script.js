@@ -179,3 +179,14 @@ worksButtons.forEach((button) => {
     });
   });
 });
+
+function validateForm(){
+  const emailInput = document.querySelector('.email-form');
+  
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    document.querySelector('#error-message').style.display = 'block';
+        
+
+  }
+
+}
