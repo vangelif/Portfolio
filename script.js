@@ -180,9 +180,9 @@ worksButtons.forEach((button) => {
   });
 });
 
-function validateForm(e){
+function validateForm(e) {
   const emailInput = document.querySelector('.email-form');
-  
+
   if (emailInput.value !== emailInput.value.toLowerCase()) {
     document.querySelector('#error-message').style.display = 'block';
     e.preventDefault();

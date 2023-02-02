@@ -259,7 +259,7 @@ nav .time {
 }
 
 #error-message {
-  display:none;
+  display: none;
   color: red;
   font-family: Inter, sans-serif;
   text-align: center;
