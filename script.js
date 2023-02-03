@@ -142,7 +142,7 @@ worksButtons.forEach((button) => {
         <img alt='' src='${portfolioItem.featuredImage}' />
       </div>
       <div class="popup-header">
-        <h2>${portfolioItem.name}</h2>      
+        <h2>${portfolioItem.name}</h2>
         <div class='popup-buttons-desktop'>
           <button>
             See Live
