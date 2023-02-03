@@ -142,7 +142,7 @@ worksButtons.forEach((button) => {
         <img alt='' src='${portfolioItem.featuredImage}' />
       </div>
       <div class="popup-header">
-        <h2>${portfolioItem.name}</h2>      
+        <h2>${portfolioItem.name}</h2>
         <div class='popup-buttons-desktop'>
           <button>
             See Live
@@ -172,7 +172,7 @@ worksButtons.forEach((button) => {
       </div>
     `;
     popupContainer.style.display = 'flex';
-    const closePopupButtons = document.querySelectorAll('#close-popup');
+    const closePopupButtons = document.querySelectorAll('#closepopup');
     closePopupButtons.forEach((button) => {
       button.addEventListener('click', () => {
         popupContainer.style.display = 'none';
@@ -191,7 +191,7 @@ function validateForm(e) {
   }
 }
 
-const contactForm = document.forms['contact-form'];
+const contactForm = document.forms['contactform'];
 contactForm.addEventListener('submit', validateForm);
 
 const nameBox = document.getElementById('name-box');
