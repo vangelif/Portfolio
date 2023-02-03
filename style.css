@@ -780,8 +780,14 @@ footer a {
   }
 
   .more-languages .card {
-    height: auto;
+    height: auto;    
   }
+
+  .more-languages .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all 1.2s ease-out;
+  }
+
 
   .cards-portfolio {
     display: grid;
@@ -792,7 +798,12 @@ footer a {
   .project {
     height: 474px;
     border: 1px solid #d0d9d4;
-    border-radius: 8px;
+    border-radius: 8px;    
+  }
+
+  .project:hover {
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    transition: all 1.2s ease-out;
   }
 
   .project-footer {
@@ -1001,6 +1012,11 @@ footer a {
 
   .about-back {
     width: 100vw;
+  }
+
+  .project:hover {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: all 1.2s ease-out;
   }
 
   .popup-buttons-desktop {
