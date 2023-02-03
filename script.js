@@ -88,7 +88,7 @@ let portfolioSection = '';
 portfolioObj.forEach((item, index) => {
   let technologies = '';
   item.technologies.forEach((tech) => {
-    technologies = `<li>
+    technologies += `<li>
     <a href='#'
       ><button class='btn-hover btn-active btn-pressed'>
         ${tech}
@@ -172,7 +172,7 @@ worksButtons.forEach((button) => {
       </div>
     `;
     popupContainer.style.display = 'flex';
-    const closePopupButtons = document.querySelectorAll('#close-popup');
+    const closePopupButtons = document.querySelectorAll('.close-popup');
     closePopupButtons.forEach((button) => {
       button.addEventListener('click', () => {
         popupContainer.style.display = 'none';
@@ -196,7 +196,7 @@ contactForm.addEventListener('submit', validateForm);
 
 const nameBox = document.getElementById('name-box');
 const emailBox = document.getElementById('email-box');
-const textBox = document.getElementById('textbox');
+const textBox = document.getElementById('text-box');
 
 contactForm.addEventListener('input', () => {
   const formData = {
