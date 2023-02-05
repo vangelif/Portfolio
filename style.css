@@ -222,7 +222,7 @@ nav .time {
 
 .about-back {
   background-image: url(images/about-me.svg);
-  background-size: 100%;
+  background-size: 1200px 500px;  
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -266,7 +266,16 @@ nav .time {
 }
 
 .about-me {
-  padding: 75px 2px;
+  padding: 20px 2px;
+  position: relative;
+  overflow-y: visible;
+
+}
+
+.about-me:after {
+  display:block;
+  content: "";
+  clear:both;
 }
 
 .more-languages .cards-container {
@@ -819,6 +828,8 @@ footer a {
   .more-languages {
     margin: 0% 1%;
     padding: 1% 1%;
+    position: relative;
+    overflow-y: hidden;
   }
 
   .more-languages .cards-container {

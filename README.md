@@ -19,9 +19,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [MOBILE MENU] <a name="about-project"></a>
+# 📖 [PERSONAL PORTFOLIO] <a name="about-project"></a>
 
-**MOBILE MENU** is a project that we are applying our knowledge on HTML and CSS and Javascript to showcase our most crisp and pristine projects. 
+**PERSONAL PORTFOLIO** is a project that we are applying our knowledge on HTML and CSS and Javascript to showcase our most crisp and pristine projects. 
+
 ## 🛠 Built With <a name="built-with"></a>
 
 - Use of HTML, CCS and JS
@@ -153,9 +154,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Insert popup windows] 
-- [Total of six projects on discussions] 
-- [Series of videos and learning refences] 
+
+- [Insert six projects on discussions] 
+- [Include three cards frameworks] 
 
 ## 🤝 Contributing <a name="contributing"></a>
 
