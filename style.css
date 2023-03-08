@@ -222,15 +222,24 @@ nav .time {
 
 .about-back {
   background-image: url(images/about-me.svg);
-  background-size: 1200px 500px;  
   background-position: center;
-  background-repeat: no-repeat;
+  background-size: auto;  
+  height: 300px; 
+  background-repeat: no-repeat;  
+}
+
+.about-back h2 {
+  margin: 3% 1%;
 }
 
 .about-back p {
   width: 75%;
   margin: 0 auto;
 }
+
+/* .about-back button {
+  margin: 0% 1%;
+} */
 
 .recent-works .underline {
   width: 48px;
