@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const btn = document.querySelector('#btn-menu');
 
 btn.addEventListener('click', () => {
@@ -33,8 +34,18 @@ contactLink.addEventListener('click', () => {
 
 const portfolioObj = [
   {
+    name: 'Sinology & Chinese Culture Web Course',
+    description:
+      '💡 Built with JavaScript, HTML, CSS. This is an online course for Chinese Courses, for Mandarin language courses and for Chinese Civilization and broader Culture courses. The project is available in two screen sizes both desktop and mobile. The original design idea is credited to Cindy Shin of Behance',
+    featuredImage: 'images/webcourse.PNG',
+    technologies: ['CSS', 'JavaScript', 'HTML'],
+    liveVersion: 'https://vangelif.github.io/sinology-course/',
+    linkSource: 'https://github.com/vangelif/sinology-course',
+  },
+  {
     name: 'Keeping track of hundreds of components',
-    description: 'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
+    description:
+      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
     featuredImage: 'images/snapsnap.png',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
@@ -42,7 +53,8 @@ const portfolioObj = [
   },
   {
     name: 'Keeping track of hundreds of components',
-    description: 'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
+    description:
+      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
     featuredImage: 'images/snapsnap.png',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
@@ -50,7 +62,8 @@ const portfolioObj = [
   },
   {
     name: 'Keeping track of hundreds of components',
-    description: 'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
+    description:
+      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
     featuredImage: 'images/snapsnap.png',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
@@ -58,7 +71,8 @@ const portfolioObj = [
   },
   {
     name: 'Keeping track of hundreds of components',
-    description: 'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
+    description:
+      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
     featuredImage: 'images/snapsnap.png',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
@@ -66,15 +80,8 @@ const portfolioObj = [
   },
   {
     name: 'Keeping track of hundreds of components',
-    description: 'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
-    featuredImage: 'images/snapsnap.png',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
-    liveVersion: '',
-    linkSource: '',
-  },
-  {
-    name: 'Keeping track of hundreds of components',
-    description: 'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
+    description:
+      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
     featuredImage: 'images/snapsnap.png',
     technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
     liveVersion: '',
@@ -99,7 +106,7 @@ portfolioObj.forEach((item, index) => {
 
   const newItem = `
   <div class='project'>
-    <div class='image-back'></div>
+    <img class='image-back' src="${item.featuredImage}">
     <div class='project-footer'>
       <div class='project-title-back'>
         <h4>${item.name}</h4>
@@ -136,21 +143,21 @@ worksButtons.forEach((button) => {
     });
 
     popupMenu.innerHTML = `
-      <i class='fa fa-close close-popup' id="close-popup"></i>
-      <div class="close-popup-image">
+      <i class='fa fa-close close-popup' id='close-popup'></i>
+      <div class='close-popup-image'>
         <i class='fa fa-close close-popup'></i>
         <img alt='' src='${portfolioItem.featuredImage}' />
       </div>
-      <div class="popup-header">
+      <div class='popup-header'>
         <h2>${portfolioItem.name}</h2>
         <div class='popup-buttons-desktop'>
-          <button>
+          <button><a href="${portfolioItem.liveVersion}">
             See Live
-            <i class='fa-solid fa-arrow-up-right-from-square'></i>
+            <i class='fa-solid fa-arrow-up-right-from-square'></i></a>
           </button>
-          <button>
+          <button><a href="${portfolioItem.linkSource}">
             See Source
-            <i class='fa-brands fa-github'></i>
+            <i class='fa-brands fa-github'></i></a>
           </button>
         </div>
       </div>
@@ -161,13 +168,13 @@ worksButtons.forEach((button) => {
         ${portfolioItem.description}
       </p>
       <div class='popup-buttons'>
-        <button>
+        <button><a href="${portfolioItem.liveVersion}">
           Live
-          <i class='fa-solid fa-arrow-up-right-from-square'></i>
+          <i class='fa-solid fa-arrow-up-right-from-square'></i></a>
         </button>
-        <button>
+        <button><a href="${portfolioItem.linkSource}">
           Source
-          <i class='fa-brands fa-github'></i>
+          <i class='fa-brands fa-github'></i></a>
         </button>
       </div>
     `;
