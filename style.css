@@ -95,7 +95,7 @@ nav .time {
 }
 
 .nav-link {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -223,9 +223,9 @@ nav .time {
 .about-back {
   background-image: url(images/about-me.svg);
   background-position: center;
-  background-size: auto;  
-  height: 300px; 
-  background-repeat: no-repeat;  
+  background-size: auto;
+  height: 300px;
+  background-repeat: no-repeat;
 }
 
 .about-back h2 {
@@ -278,13 +278,12 @@ nav .time {
   padding: 20px 2px;
   position: relative;
   overflow-y: visible;
-
 }
 
 .about-me:after {
-  display:block;
-  content: "";
-  clear:both;
+  display: block;
+  content: '';
+  clear: both;
 }
 
 .more-languages .cards-container {
@@ -313,6 +312,7 @@ nav .time {
   background: #d0d9d4;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  background: url(/images/webcourse.PNG);
 }
 
 .project-footer {
@@ -456,7 +456,7 @@ nav .time {
   left: 16px;
   right: 16px;
   top: calc(50% - 18px / 2);
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -476,7 +476,7 @@ nav .time {
 
 .contact-msg h2 {
   color: #172b4d;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -505,7 +505,7 @@ nav .time {
   border: none;
   color: white;
   text-transform: capitalize;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -565,7 +565,7 @@ nav .time {
 footer {
   position: absolute;
   bottom: 3%;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -591,7 +591,7 @@ footer a {
   flex-direction: column;
   gap: 15px;
   text-align: left;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   border: 1px solid black;
   border-radius: 8px;
 }
@@ -619,21 +619,21 @@ footer a {
 
 .popup-menu h2 {
   font-size: 32px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .popup-menu > p {
   font-size: 16px;
   font-weight: 400;
   text-align: left;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .popup-buttons {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -651,7 +651,7 @@ footer a {
   border-radius: 4px;
   color: white;
   font-size: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .popup-container {
@@ -677,7 +677,7 @@ footer a {
   background: #ebecf0;
   border-radius: 8px;
   height: 32px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -798,14 +798,15 @@ footer a {
   }
 
   .more-languages .card {
-    height: auto;    
+    height: auto;
   }
 
   .more-languages .card:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: all 1.2s ease-out;
   }
-
 
   .cards-portfolio {
     display: grid;
@@ -816,11 +817,13 @@ footer a {
   .project {
     height: 474px;
     border: 1px solid #d0d9d4;
-    border-radius: 8px;    
+    border-radius: 8px;
   }
 
   .project:hover {
-    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px,
+      rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px,
+      rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
     transition: all 1.2s ease-out;
   }
 
@@ -887,7 +890,7 @@ footer a {
   }
 
   .contact-msg h2 {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -997,7 +1000,7 @@ footer a {
   }
 
   .popup-menu h2 {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -1010,7 +1013,7 @@ footer a {
     background: #ebecf0;
     border-radius: 8px;
     width: 90px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -1035,7 +1038,12 @@ footer a {
   }
 
   .project:hover {
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
     transition: all 1.2s ease-out;
   }
 
