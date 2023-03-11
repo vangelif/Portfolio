@@ -106,7 +106,7 @@ portfolioObj.forEach((item, index) => {
 
   const newItem = `
   <div class='project'>
-    <div class='image-back'></div>
+    <img class='image-back' src="${item.featuredImage}">
     <div class='project-footer'>
       <div class='project-title-back'>
         <h4>${item.name}</h4>
