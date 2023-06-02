@@ -316,18 +316,16 @@ nav .time {
 }
 
 .cards-portfolio .project {
-  border: 1px solid #d0d9d4;
+  border: 3px solid #d0d9d4;
   border-radius: 8px;
 }
 
 .image-back {
   height: 268px;
-  width: 100%;
-
-  /* background: #d0d9d4; */
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   background: url(/images/webcourse.PNG);
+  /* background-size: cover; */
 }
 
 .project-footer {
@@ -608,13 +606,13 @@ footer a {
   width: 100%;
   height: max-content;
   background-color: white;
-  padding: 15px;
+  padding: 35px;
   display: flex;
   flex-direction: column;
   gap: 15px;
   text-align: left;
   font-family: 'Inter', sans-serif;
-  border: 1px solid black;
+  border: 5px dotted lightgreen;
   border-radius: 8px;
 }
 
@@ -823,13 +821,6 @@ footer a {
     height: auto;
   }
 
-  .more-languages .card:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px,
-      rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px,
-      rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
-    transition: all 1.2s ease-out;
-  }
-
   .cards-portfolio {
     display: grid;
     gap: 24px;
@@ -840,13 +831,6 @@ footer a {
     height: 474px;
     border: 1px solid #d0d9d4;
     border-radius: 8px;
-  }
-
-  .project:hover {
-    box-shadow: rgb(85, 91, 255) 0 0 0 3px, rgb(31, 193, 27) 0 0 0 6px,
-      rgb(255, 217, 19) 0 0 0 9px, rgb(255, 156, 85) 0 0 0 12px,
-      rgb(255, 85, 85) 0 0 0 15px;
-    transition: all 1.2s ease-out;
   }
 
   .project-footer {
@@ -996,9 +980,7 @@ footer a {
     display: block;
     align-self: flex-end;
     padding: 4px;
-    background-color: #ebecf0;
     color: #c6c4c4;
-    border-radius: 4px;
     cursor: pointer;
   }
 
@@ -1010,11 +992,19 @@ footer a {
     background: #36b37f;
     border-radius: 12px;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 5px 10px;
+    padding: 5px 13px;
+  }
+
+  .popup-menu .popup-buttons-desktop > button > a {
+    color: black;
+  }
+
+  .popup-menu .popup-buttons-desktop > button > a > i {
+    color: black;
   }
 
   .popup-header {
