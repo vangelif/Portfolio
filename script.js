@@ -52,13 +52,31 @@ const portfolioObj = [
     linkSource: 'https://github.com/vangelif/tasks',
   },
   {
-    name: 'Keeping track of everything',
+    name: 'Math Magicians Calculator',
     description:
       'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
-    featuredImage: 'images/snapsnap.png',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    featuredImage: 'images/math.PNG',
+    technologies: ['React', 'CSS', 'HTML'],
     liveVersion: '',
-    linkSource: '',
+    linkSource: 'https://github.com/vangelif/Math_Magicians',
+  },
+  {
+    name: 'Leaderboard Game Scorecard',
+    description:
+      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
+    featuredImage: 'images/scorecard.PNG',
+    technologies: ['JavaScript', 'CSS', 'HTML'],
+    liveVersion: '',
+    linkSource: 'https://github.com/vangelif/LB',
+  },
+  {
+    name: 'Leaderboard Game Scorecard',
+    description:
+      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
+    featuredImage: 'images/scorecard.PNG',
+    technologies: ['JavaScript', 'CSS', 'HTML'],
+    liveVersion: '',
+    linkSource: 'https://github.com/vangelif/LB',
   },
 ];
 
