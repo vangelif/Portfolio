@@ -52,7 +52,7 @@ const portfolioObj = [
     linkSource: 'https://github.com/vangelif/tasks',
   },
   {
-    name: 'Keeping track of hundreds of components',
+    name: 'Keeping track of everything',
     description:
       'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
     featuredImage: 'images/snapsnap.png',
