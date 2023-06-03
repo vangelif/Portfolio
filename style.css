@@ -235,15 +235,13 @@ nav .time {
 .recent-works {
   width: 100%;
   height: 100%;
-  padding-left: 24px;
-  padding-right: 24px;
   margin: 0 auto;
-  margin-bottom: 25px;
-  margin-top: 25px;
+  margin: 1%;
+  padding: 0 3%;
 }
 
 .about-back {
-  background-image: url(images/about-me.svg);
+  background-image: url();
   background-position: center;
   background-size: 100%;
   height: 300px;
@@ -257,6 +255,7 @@ nav .time {
 .about-back p {
   width: 75%;
   margin: 0 auto;
+  padding-bottom: 2%;
 }
 
 .recent-works .underline {
@@ -329,8 +328,6 @@ nav .time {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   background: url(/images/webcourse.PNG);
-
-  /* background-size: cover; */
 }
 
 .project-footer {
@@ -687,7 +684,6 @@ footer a {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: lightgoldenrodyellow;
-  /* opacity: 70%; */
   display: none;
   justify-content: center;
   position: fixed;
@@ -819,6 +815,14 @@ footer a {
 
   /* desktop intro end */
 
+  .recent-works {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin: 1%;
+    padding: 0 15%;
+  }
+
   .break,
   .underline {
     display: none;
@@ -845,7 +849,7 @@ footer a {
 
   .project {
     height: 474px;
-
+    cursor: grab;
     /* width: 500px; */
     border: 1px solid #d0d9d4;
     border-radius: 8px;
@@ -862,8 +866,8 @@ footer a {
   }
 
   .more-languages {
-    margin: 0% 1%;
-    padding: 1% 1%;
+    margin: 1% 0;
+    padding: 1% 13%;
     position: relative;
     overflow-y: hidden;
   }
