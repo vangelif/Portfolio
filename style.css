@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
+
   /* background-color: lightblue; */
+
   /* background: url(images/astro.gif);
   background-repeat: no-repeat;
   background-size: cover; */
@@ -14,7 +16,9 @@ body {
   flex-direction: column;
   padding-bottom: 100px;
   position: relative;
+
   /* background-color: lightcoral; */
+
   /* background: url(images/confetti.gif);
   background-repeat: no-repeat;
   background-size: cover; */
@@ -325,6 +329,7 @@ nav .time {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   background: url(/images/webcourse.PNG);
+
   /* background-size: cover; */
 }
 
@@ -744,6 +749,10 @@ footer a {
     gap: 15px;
   }
 
+  .popup-menu .popup-buttons-desktop > button > a {
+    color: black;
+  }
+
   #nav ul li a {
     font-size: 12px;
     font-family: Inter, sans-serif;
@@ -831,6 +840,7 @@ footer a {
 
   .project {
     height: 474px;
+
     /* width: 500px; */
     border: 1px solid #d0d9d4;
     border-radius: 8px;
@@ -1002,9 +1012,9 @@ footer a {
     padding: 5px 13px;
   }
 
-  .popup-menu .popup-buttons-desktop > button > a {
+  /* .popup-menu .popup-buttons-desktop > button > a {
     color: black;
-  }
+  } */
 
   .popup-menu .popup-buttons-desktop > button > a > i {
     color: black;
@@ -1055,11 +1065,15 @@ footer a {
   }
 
   .project:hover {
-    box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset,
+    box-shadow:
+      rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset,
       rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset,
-      rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px,
-      rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px,
-      rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
+      rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset,
+      rgba(0, 0, 0, 0.06) 0 2px 1px,
+      rgba(0, 0, 0, 0.09) 0 4px 2px,
+      rgba(0, 0, 0, 0.09) 0 8px 4px,
+      rgba(0, 0, 0, 0.09) 0 16px 8px,
+      rgba(0, 0, 0, 0.09) 0 32px 16px;
     transition: all 1.2s ease-out;
   }
 
