@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
+
+  /* background-color: lightblue; */
+
+  /* background: url(images/astro.gif);
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 body {
@@ -10,6 +16,12 @@ body {
   flex-direction: column;
   padding-bottom: 100px;
   position: relative;
+
+  /* background-color: lightcoral; */
+
+  /* background: url(images/confetti.gif);
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 a {
@@ -223,15 +235,13 @@ nav .time {
 .recent-works {
   width: 100%;
   height: 100%;
-  padding-left: 24px;
-  padding-right: 24px;
   margin: 0 auto;
-  margin-bottom: 25px;
-  margin-top: 25px;
+  margin: 1%;
+  padding: 0 3%;
 }
 
 .about-back {
-  background-image: url(images/about-me.svg);
+  background-image: url();
   background-position: center;
   background-size: 100%;
   height: 300px;
@@ -245,6 +255,7 @@ nav .time {
 .about-back p {
   width: 75%;
   margin: 0 auto;
+  padding-bottom: 2%;
 }
 
 .recent-works .underline {
@@ -308,15 +319,12 @@ nav .time {
 }
 
 .cards-portfolio .project {
-  border: 1px solid #d0d9d4;
+  border: 3px solid #d0d9d4;
   border-radius: 8px;
 }
 
 .image-back {
   height: 268px;
-  width: 100%;
-
-  /* background: #d0d9d4; */
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   background: url(/images/webcourse.PNG);
@@ -363,6 +371,7 @@ nav .time {
 
 .works-button {
   background: #36b37f;
+  cursor: pointer;
   padding: 12px;
   border-radius: 4px;
   margin: 0 auto;
@@ -451,6 +460,13 @@ nav .time {
   width: 327px;
 }
 
+input,
+textarea {
+  padding-inline: 3%;
+  padding-block: 3%;
+  font-size: 20px;
+}
+
 .input-form {
   width: 100%;
   position: relative;
@@ -500,6 +516,7 @@ nav .time {
 }
 
 .submit-btn {
+  cursor: pointer;
   width: 129px;
   height: 48px;
   background: #36b37f;
@@ -593,14 +610,15 @@ footer a {
   width: 100%;
   height: max-content;
   background-color: white;
-  padding: 15px;
+  padding: 35px;
   display: flex;
   flex-direction: column;
   gap: 15px;
   text-align: left;
   font-family: 'Inter', sans-serif;
-  border: 1px solid black;
+  border: 5px dotted lightgreen;
   border-radius: 8px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5), 0 7px 50px 0 rgba(0, 0, 0, 0.7);
 }
 
 .popup-menu img {
@@ -662,7 +680,10 @@ footer a {
 }
 
 .popup-container {
-  background-color: gray;
+  background-image: url(images/confetti.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightgoldenrodyellow;
   display: none;
   justify-content: center;
   position: fixed;
@@ -729,6 +750,10 @@ footer a {
     gap: 15px;
   }
 
+  .popup-menu .popup-buttons-desktop > button > a {
+    color: black;
+  }
+
   #nav ul li a {
     font-size: 12px;
     font-family: Inter, sans-serif;
@@ -790,6 +815,14 @@ footer a {
 
   /* desktop intro end */
 
+  .recent-works {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin: 1%;
+    padding: 0 15%;
+  }
+
   .break,
   .underline {
     display: none;
@@ -808,36 +841,19 @@ footer a {
     height: auto;
   }
 
-  .more-languages .card:hover {
-    box-shadow:
-      rgba(0, 0, 0, 0.25) 0 54px 55px,
-      rgba(0, 0, 0, 0.12) 0 -12px 30px,
-      rgba(0, 0, 0, 0.12) 0 4px 6px,
-      rgba(0, 0, 0, 0.17) 0 12px 13px,
-      rgba(0, 0, 0, 0.09) 0 -3px 5px;
-    transition: all 1.2s ease-out;
-  }
-
   .cards-portfolio {
     display: grid;
-    gap: 24px;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    grid-template-columns: repeat(5, 1fr);
   }
 
   .project {
     height: 474px;
+    cursor: grab;
+
+    /* width: 500px; */
     border: 1px solid #d0d9d4;
     border-radius: 8px;
-  }
-
-  .project:hover {
-    box-shadow:
-      rgb(85, 91, 255) 0 0 0 3px,
-      rgb(31, 193, 27) 0 0 0 6px,
-      rgb(255, 217, 19) 0 0 0 9px,
-      rgb(255, 156, 85) 0 0 0 12px,
-      rgb(255, 85, 85) 0 0 0 15px;
-    transition: all 1.2s ease-out;
   }
 
   .project-footer {
@@ -851,8 +867,8 @@ footer a {
   }
 
   .more-languages {
-    margin: 0% 1%;
-    padding: 1% 1%;
+    margin: 1% 0;
+    padding: 1% 13%;
     position: relative;
     overflow-y: hidden;
   }
@@ -987,9 +1003,7 @@ footer a {
     display: block;
     align-self: flex-end;
     padding: 4px;
-    background-color: #ebecf0;
     color: #c6c4c4;
-    border-radius: 4px;
     cursor: pointer;
   }
 
@@ -1001,11 +1015,19 @@ footer a {
     background: #36b37f;
     border-radius: 12px;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 5px 10px;
+    padding: 5px 13px;
+  }
+
+  /* .popup-menu .popup-buttons-desktop > button > a {
+    color: black;
+  } */
+
+  .popup-menu .popup-buttons-desktop > button > a > i {
+    color: black;
   }
 
   .popup-header {

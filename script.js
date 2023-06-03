@@ -43,40 +43,13 @@ const portfolioObj = [
     linkSource: 'https://github.com/vangelif/sinology-course',
   },
   {
-    name: 'Keeping track of hundreds of components',
+    name: 'Daily Task List',
     description:
-      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
-    featuredImage: 'images/snapsnap.png',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
-    liveVersion: '',
-    linkSource: '',
-  },
-  {
-    name: 'Keeping track of hundreds of components',
-    description:
-      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
-    featuredImage: 'images/snapsnap.png',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
-    liveVersion: '',
-    linkSource: '',
-  },
-  {
-    name: 'Keeping track of hundreds of components',
-    description:
-      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
-    featuredImage: 'images/snapsnap.png',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
-    liveVersion: '',
-    linkSource: '',
-  },
-  {
-    name: 'Keeping track of hundreds of components',
-    description:
-      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
-    featuredImage: 'images/snapsnap.png',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
-    liveVersion: '',
-    linkSource: '',
+      '🎯 This project is a simple HTML list of tasks. This simple web page is is being built using webpack and served by a webpack dev server. The user can add and remove tasks from the list, and also can mark those which are completed by clicking the relevant checkbox. All tasks are stored to the local storage and which is updated automatically.',
+    featuredImage: 'images/Task_List.PNG',
+    technologies: ['CSS', 'JavaScript', 'HTML'],
+    liveVersion: 'https://vangelif.github.io/tasks/dist/',
+    linkSource: 'https://github.com/vangelif/tasks',
   },
   {
     name: 'Keeping track of hundreds of components',
