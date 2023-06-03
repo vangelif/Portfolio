@@ -3,12 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-
-  /* background-color: lightblue; */
-
-  /* background: url(images/astro.gif);
-  background-repeat: no-repeat;
-  background-size: cover; */
+  font-family: cinzel decorative;
 }
 
 body {
@@ -16,12 +11,6 @@ body {
   flex-direction: column;
   padding-bottom: 100px;
   position: relative;
-
-  /* background-color: lightcoral; */
-
-  /* background: url(images/confetti.gif);
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 a {
@@ -117,7 +106,7 @@ nav .time {
 }
 
 .nav-link {
-  font-family: 'Inter', sans-serif;
+  font-family: cinzel decorative, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -287,7 +276,7 @@ nav .time {
 #error-message {
   display: none;
   color: red;
-  font-family: Inter, sans-serif;
+  font-family: cinzel decorative, sans-serif;
   text-align: center;
 }
 
@@ -321,6 +310,7 @@ nav .time {
 .cards-portfolio .project {
   border: 3px solid #d0d9d4;
   border-radius: 8px;
+  height: auto;
 }
 
 .image-back {
@@ -479,7 +469,7 @@ textarea {
   left: 16px;
   right: 16px;
   top: calc(50% - 18px / 2);
-  font-family: 'Inter', sans-serif;
+  font-family: cinzel decorative, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -499,7 +489,7 @@ textarea {
 
 .contact-msg h2 {
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: cinzel decorative, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -529,7 +519,7 @@ textarea {
   border: none;
   color: white;
   text-transform: capitalize;
-  font-family: 'Inter', sans-serif;
+  font-family: cinzel decorative, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -545,6 +535,7 @@ textarea {
 .submit-btn:enabled {
   color: beige;
   background: #36b37f;
+  width: auto;
 }
 
 .submit-btn:active {
@@ -589,7 +580,7 @@ textarea {
 footer {
   position: absolute;
   bottom: 3%;
-  font-family: 'Inter', sans-serif;
+  font-family: cinzel decorative, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -602,7 +593,7 @@ footer {
 
 footer a {
   color: black;
-  font-family: Inter, sans-serif;
+  font-family: cinzel decorative, sans-serif;
   font-size: 20px;
 }
 
@@ -615,7 +606,7 @@ footer a {
   flex-direction: column;
   gap: 15px;
   text-align: left;
-  font-family: 'Inter', sans-serif;
+  font-family: cinzel decorative, sans-serif;
   border: 5px dotted lightgreen;
   border-radius: 8px;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5), 0 7px 50px 0 rgba(0, 0, 0, 0.7);
@@ -644,21 +635,21 @@ footer a {
 
 .popup-menu h2 {
   font-size: 32px;
-  font-family: 'Inter', sans-serif;
+  font-family: cinzel decorative, sans-serif;
 }
 
 .popup-menu > p {
   font-size: 16px;
   font-weight: 400;
   text-align: left;
-  font-family: 'Inter', sans-serif;
+  font-family: cinzel decorative, sans-serif;
 }
 
 .popup-buttons {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: cinzel decorative, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -676,7 +667,7 @@ footer a {
   border-radius: 4px;
   color: white;
   font-size: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: cinzel decorative, sans-serif;
 }
 
 .popup-container {
@@ -705,7 +696,7 @@ footer a {
   background: #ebecf0;
   border-radius: 8px;
   height: 32px;
-  font-family: 'Inter', sans-serif;
+  font-family: cinzel decorative, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -756,7 +747,7 @@ footer a {
 
   #nav ul li a {
     font-size: 12px;
-    font-family: Inter, sans-serif;
+    font-family: cinzel decorative, sans-serif;
     color: black;
   }
 
@@ -834,7 +825,9 @@ footer a {
 
   .about-back p {
     max-width: 920px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    text-align: center;
+    font-size: 20px;
   }
 
   .more-languages .card {
@@ -919,7 +912,7 @@ footer a {
   }
 
   .contact-msg h2 {
-    font-family: 'Inter', sans-serif;
+    font-family: cinzel decorative, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -1037,7 +1030,7 @@ footer a {
   }
 
   .popup-menu h2 {
-    font-family: 'Inter', sans-serif;
+    font-family: cinzel decorative, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -1075,15 +1068,11 @@ footer a {
   }
 
   .project:hover {
-    box-shadow:
-      rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset,
+    box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset,
       rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset,
-      rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset,
-      rgba(0, 0, 0, 0.06) 0 2px 1px,
-      rgba(0, 0, 0, 0.09) 0 4px 2px,
-      rgba(0, 0, 0, 0.09) 0 8px 4px,
-      rgba(0, 0, 0, 0.09) 0 16px 8px,
-      rgba(0, 0, 0, 0.09) 0 32px 16px;
+      rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px,
+      rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px,
+      rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
     transition: all 1.2s ease-out;
   }
 
