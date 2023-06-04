@@ -302,7 +302,7 @@ nav .time {
 .recent-works .cards-portfolio {
   margin-top: 32px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(327px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1.5rem;
   grid-row-gap: 1.5rem;
 }
@@ -311,6 +311,7 @@ nav .time {
   border: 3px solid #d0d9d4;
   border-radius: 8px;
   height: auto;
+  width: 100%;
 }
 
 .image-back {

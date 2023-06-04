@@ -47,18 +47,36 @@ const portfolioObj = [
     description:
       '🎯 This project is a simple HTML list of tasks. This simple web page is is being built using webpack and served by a webpack dev server. The user can add and remove tasks from the list, and also can mark those which are completed by clicking the relevant checkbox. All tasks are stored to the local storage and which is updated automatically.',
     featuredImage: 'images/Task_List.PNG',
-    technologies: ['CSS', 'JavaScript', 'HTML'],
+    technologies: ['CSS', 'WEBPACK', 'JavaScript', 'ES6', 'HTML'],
     liveVersion: 'https://vangelif.github.io/tasks/dist/',
     linkSource: 'https://github.com/vangelif/tasks',
   },
   {
-    name: 'Keeping track of everything',
+    name: 'Math Magicians Calculator',
     description:
       'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
-    featuredImage: 'images/snapsnap.png',
-    technologies: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    featuredImage: 'images/math.PNG',
+    technologies: ['React', 'CSS', 'HTML'],
     liveVersion: '',
-    linkSource: '',
+    linkSource: 'https://github.com/vangelif/Math_Magicians',
+  },
+  {
+    name: 'Leaderboard Game Scorecard',
+    description:
+      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
+    featuredImage: 'images/scorecard.PNG',
+    technologies: ['JavaScript', 'WEBPACK', 'ES6', 'CSS', 'HTML'],
+    liveVersion: '',
+    linkSource: 'https://github.com/vangelif/LB',
+  },
+  {
+    name: 'Leaderboard Game Scorecard',
+    description:
+      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
+    featuredImage: 'images/scorecard.PNG',
+    technologies: ['JavaScript', 'CSS', 'HTML'],
+    liveVersion: '',
+    linkSource: 'https://github.com/vangelif/LB',
   },
 ];
 
