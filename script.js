@@ -56,7 +56,7 @@ const portfolioObj = [
     description:
       'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
     featuredImage: 'images/mm.PNG',
-    technologies: ['React', 'CSS', 'HTML'],
+    technologies: ['React', 'CSS', 'HTML', 'JavaScript', 'ES6'],
     liveVersion: 'https://mm-30lf.onrender.com/',
     linkSource: 'https://github.com/vangelif/Math_Magicians',
   },
@@ -66,15 +66,6 @@ const portfolioObj = [
       'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
     featuredImage: 'images/scorecard.PNG',
     technologies: ['JavaScript', 'WEBPACK', 'ES6', 'CSS', 'HTML'],
-    liveVersion: '',
-    linkSource: 'https://github.com/vangelif/LB',
-  },
-  {
-    name: 'Leaderboard Game Scorecard',
-    description:
-      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus porttitor lectus, id feugiat dolor pretium id. Praesent tristique facilisis odio a vehicula. Nunc ut tellus placerat, vehicula nisi vitae, vestibulum nunc. Suspendisse laoreet erat ipsum, sed iaculis nisl efficitur vitae. Nullam facilisis turpis ut enim feugiat sagittis et quis ex. Mauris non erat vel libero dapibus venenatis. Nulla nec nisi id nisi eleifend consequat eget eget ligula.',
-    featuredImage: 'images/scorecard.PNG',
-    technologies: ['JavaScript', 'CSS', 'HTML'],
     liveVersion: '',
     linkSource: 'https://github.com/vangelif/LB',
   },
